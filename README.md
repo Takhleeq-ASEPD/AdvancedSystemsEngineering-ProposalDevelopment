@@ -19,7 +19,14 @@ deliverables documentation site.
 - `.github/workflows/deploy.yml` – builds and publishes the site on push
   to `main`
 
-## Local preview
+## New editor? Start here
+
+If you've never set this up before, follow [`SETUP.md`](SETUP.md). It
+walks you through everything — installing VSCode, Python, Git, Claude
+Code, cloning the repo, and making your first published edit. Takes
+about 30 minutes.
+
+## Local preview (once setup is complete)
 
 ```bash
 python -m venv .venv
