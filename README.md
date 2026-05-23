@@ -3,7 +3,7 @@
 Advanced Systems Engineering – Proposal Development. Source for the
 deliverables documentation site.
 
-**Live site:** _(will be added once GitHub Pages is enabled)_
+**Live site:** https://takhleeq-asepd.github.io/AdvancedSystemsEngineering-ProposalDevelopment/
 
 ## What lives here
 

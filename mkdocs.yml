@@ -1,7 +1,7 @@
 site_name: AESPD Deliverables
 site_description: Advanced Systems Engineering – Proposal Development deliverables
-site_url: https://example.github.io/AESPD_Documentation/
-repo_url: https://github.com/example/AESPD_Documentation
+site_url: https://takhleeq-asepd.github.io/AdvancedSystemsEngineering-ProposalDevelopment/
+repo_url: https://github.com/Takhleeq-ASEPD/AdvancedSystemsEngineering-ProposalDevelopment
 edit_uri: edit/main/docs/
 
 docs_dir: docs

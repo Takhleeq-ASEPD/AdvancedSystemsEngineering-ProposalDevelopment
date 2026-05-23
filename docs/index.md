@@ -46,6 +46,6 @@ content they annotate.
 ## Editing
 
 The full editing workflow — local preview, branching, publishing — lives
-in the repository's [README](https://github.com/example/AESPD_Documentation#editing-workflow)
+in the repository's [README](https://github.com/Takhleeq-ASEPD/AdvancedSystemsEngineering-ProposalDevelopment#editing-workflow)
 and the conventions for content live in
-[`CLAUDE.md`](https://github.com/example/AESPD_Documentation/blob/main/CLAUDE.md).
+[`CLAUDE.md`](https://github.com/Takhleeq-ASEPD/AdvancedSystemsEngineering-ProposalDevelopment/blob/main/CLAUDE.md).
