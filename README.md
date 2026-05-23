@@ -5,6 +5,8 @@ deliverables documentation site.
 
 **Live site:** https://takhleeq-asepd.github.io/AdvancedSystemsEngineering-ProposalDevelopment/
 
+**Deployment status:** https://github.com/Takhleeq-ASEPD/AdvancedSystemsEngineering-ProposalDevelopment/actions/workflows/deploy.yml — every push to `main` triggers a build here. Green check = live site is up to date with `main`; red X = the most recent push failed to deploy and the site still shows the previous version.
+
 ## What lives here
 
 - `docs/` – the markdown content rendered as the public site
