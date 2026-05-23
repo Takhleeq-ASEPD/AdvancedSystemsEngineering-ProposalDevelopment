@@ -108,7 +108,7 @@ Not all stakeholder requirements need a verification requirement:
 
 5.  **Check Requirement quality**
 
-    1.  In the Requirements Document dropdown <img src="../../assets/images/image12.png" style="width:0.36896in;height:0.22361in" />, select and run Quality Check.
+    1.  In the Requirements Document dropdown ![](../../assets/images/image12.png){ style="width:0.36896in;height:0.22361in" }, select and run Quality Check.
 
     2.  Review flagged issues from the tool and refine wording.
 
@@ -165,7 +165,7 @@ Not all stakeholder requirements need a verification requirement:
 
         2.  Create relationship “enables” between relevant verification requirement and decision.
 
-<img src="../../assets/images/image3.png" style="width:6.5in;height:3.34722in" />
+![](../../assets/images/image3.png){ style="width:6.5in;height:3.34722in" }
 
 Figure 8.1 Adding explicit verification requirements enables better traceability.
 

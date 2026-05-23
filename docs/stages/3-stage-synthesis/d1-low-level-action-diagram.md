@@ -81,7 +81,7 @@ For each action block being decomposed, consider these steps:
     - Use OR for situations where your system has to take a decision for future actions.
 
     - In the example case below, the system has to make a decision where one path will consume more time and resources, but that action may be required to meet a user's need.  
-      <img src="../../assets/images/image19.png" style="width:2.98438in;height:2.11822in" />
+      ![](../../assets/images/image19.png){ style="width:2.98438in;height:2.11822in" }
 
 6.  Add duration to actions (for analysis later)
 

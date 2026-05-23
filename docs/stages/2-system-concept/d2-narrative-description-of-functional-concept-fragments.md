@@ -104,6 +104,6 @@ Define criteria **before any scoring**.Weightage is supposed to be distributed a
 5.  Create a “enables” relation between the artifact and decision entity.
 
 For reference a pugh matrix is attached below that you can use to understand how to make one for your design choices:  
-<img src="../../assets/images/image14.png" style="width:5.5625in;height:3.03125in" />
+![Pugh matrix example](../../assets/images/image14.png)
 
 Detailed steps for making this can be found in “getting design right” chapter 5.

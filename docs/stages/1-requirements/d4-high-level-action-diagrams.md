@@ -66,7 +66,7 @@ The following steps are followed depending on how detailed our system-level conc
 <!-- comment:3 -->
 
 
-<img src="../../assets/images/image15.png" style="width:4.10625in;height:4.8258in" />
+![](../../assets/images/image15.png){ style="width:4.10625in;height:4.8258in" }
 
 Figure 7.1 Example Behavioural Description
 
@@ -76,11 +76,11 @@ To view an example on how to create an Action Diagram from a Use Case Behaviour 
 
 Below is one of the use case behaviour description from the toy catapult example from *Getting Design Right*:
 
-<img src="../../assets/images/image1.png" style="width:3.88269in;height:4.48843in" />
+![](../../assets/images/image1.png){ style="width:3.88269in;height:4.48843in" }
 
 By walking the columns of the table above, the following action diagram in Figure 7.2 can be developed:
 
-> <img src="../../assets/images/image8.png" style="width:4.64756in;height:4.11875in" />
+> ![](../../assets/images/image8.png){ style="width:4.64756in;height:4.11875in" }
 >
 > Figure 7.2 Action diagram for Parent Entertains Child Use Case
 

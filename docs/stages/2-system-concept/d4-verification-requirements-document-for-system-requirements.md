@@ -247,7 +247,7 @@ Verification Requirement → **enables → Decision**
 
 Red Review Team Instructions
 
-## <img src="../../assets/images/image17.png" style="width:5.38021in;height:2.58333in" />
+## ![](../../assets/images/image17.png){ style="width:5.38021in;height:2.58333in" }
 
 ##  **Red Team Review Instructions**
 
@@ -593,7 +593,7 @@ Evaluation is based on the quality of reasoning demonstrated through exploration
 
 Red Team Attack Response
 
-<img src="../../assets/images/image21.png" style="width:5.18229in;height:2.58637in" />
+![](../../assets/images/image21.png){ style="width:5.18229in;height:2.58637in" }
 
 **Red Team Attack Response**
 
@@ -1120,10 +1120,10 @@ Figure 2. in Appendix illustrates this with the toy catapult example.
 
 **4. Appendix**
 
-<img src="../../assets/images/image18.png" style="width:2.69883in;height:2.6494in" />
+![](../../assets/images/image18.png){ style="width:2.69883in;height:2.6494in" }
 
 Figure 1. Example of list of functions and components
 
-<img src="../../assets/images/image9.png" style="width:3.65278in;height:3.71919in" />
+![](../../assets/images/image9.png){ style="width:3.65278in;height:3.71919in" }
 
 Figure 2. Subsystems for toy catapult example

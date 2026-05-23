@@ -46,7 +46,7 @@ In summary, a **context diagram** identifies:
 
 > As an example, Figure 4.1 shows the context diagram for the toy catapult. Note the dotted line used to mark the system clearly. Everything outside the dotted line is an external entity.
 >
-> <img src="../../assets/images/image10.png" style="width:4.78704in;height:2.52048in" />
+> ![](../../assets/images/image10.png){ style="width:4.78704in;height:2.52048in" }
 >
 > Figure 4.1 Example Context Diagram for toy catapult
 
@@ -87,7 +87,7 @@ In summary, a **context diagram** identifies:
 
 5.  Create an asset for the system, name it, number it as “SYS.1” and add a description.
 
-6.  Create external assets, name them, and number them as “EXT.n”. Mark external assets by selecting <img src="../../assets/images/image20.png" style="width:1.03615in;height:0.25427in" />on the top-bar.
+6.  Create external assets, name them, and number them as “EXT.n”. Mark external assets by selecting ![](../../assets/images/image20.png){ style="width:1.03615in;height:0.25427in" }on the top-bar.
 
 7.  **Connect external systems to the original system**
 
@@ -95,7 +95,7 @@ In summary, a **context diagram** identifies:
 
     2.  Define Input/Output, Conduit, Actions, Directionality, and Origin using the pop-up displayed in Figure 4.2. Directions and shapes for the conduits can be changed by selecting the line and using the “Line Options” button at the top. Fill as many fields as possible for each of the entities.
 
-> <img src="../../assets/images/image6.png" style="width:3.09375in;height:4.125in" />
+> ![](../../assets/images/image6.png){ style="width:3.09375in;height:4.125in" }
 >
 > Figure 4.2 New Input/Output Creation Dialog
 
@@ -397,19 +397,19 @@ Students are expected to list scenarios across **multiple categories**, not just
 
 As an example, below is the initial functional model for the Moonbase project created using the existing action, input/output entities from the context diagram:
 
-<img src="../../assets/images/image5.png" style="width:5.06539in;height:2.48993in" />
+![](../../assets/images/image5.png){ style="width:5.06539in;height:2.48993in" }
 
 Figure 4.3 Initial functional model for Moonbase project
 
 After exploring how the system may be used, the table below lists scenarios for Selene Moonbase project:
 
-<img src="../../assets/images/image2.png" style="width:5.98264in;height:2.73246in" />
+![](../../assets/images/image2.png){ style="width:5.98264in;height:2.73246in" }
 
 Figure 4.4 Initial List of Scenarios for Moonbase: Selene
 
 Then, the table is used to modify the existing action diagram in Figure 4.3 to come up with a modified high-level action diagram (**Real MBSE eBook Chapter 5 pg 84)** below:
 
-> <img src="../../assets/images/image7.png" style="width:5.24323in;height:3.69715in" />
+> ![](../../assets/images/image7.png){ style="width:5.24323in;height:3.69715in" }
 >
 > Figure 4.5 Developing the integrated behaviour model for Moonbase project
 

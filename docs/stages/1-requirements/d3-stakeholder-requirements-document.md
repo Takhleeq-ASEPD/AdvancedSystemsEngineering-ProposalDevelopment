@@ -35,7 +35,7 @@ Figure 6.1 shows an overview of requirements analysis in Model-Based Systems Eng
 <!-- comment:0 -->
 
 
-    1.  Create a new Requirements Document using “Create Document” on the Manage Documents Dashboard view of your project. Name the document as “SR.1”.<img src="../../assets/images/image4.png" style="width:0.38542in;height:0.20016in" />
+    1.  Create a new Requirements Document using “Create Document” on the Manage Documents Dashboard view of your project. Name the document as “SR.1”.![](../../assets/images/image4.png){ style="width:0.38542in;height:0.20016in" }
 
     2.  Create requirements using “New Requirement” button. Number the requirements as “SR.1.N” where “N” is the number of the requirement.
 
@@ -86,13 +86,13 @@ Figure 6.1 shows an overview of requirements analysis in Model-Based Systems Eng
     4.  Create a Decision entity and its rationale and create relationship with trade study as “enabled by”.  
         (for more details on relationships refer to the source: [<u>https://help.specinnovations.com/entity-data-elements</u>](https://help.specinnovations.com/entity-data-elements))
 
-<img src="../../assets/images/image23.png" style="width:5.86114in;height:3.57387in" alt="1. requirements analysis.png" />
+![1. requirements analysis.png](../../assets/images/image23.png){ style="width:5.86114in;height:3.57387in" }
 
 Figure 6.1 Requirements Analysis captures and understands the users’ needs
 
 Remember, although the steps mentioned above are laid out linearly, agile systems engineering is non-linear and iterative in nature as reflected in Figure 2 below. For more detail on Middle-out process, refer to section “Processes” in Real-MBSE book Chapter 1.
 
-<img src="../../assets/images/image13.png" style="width:5.16458in;height:3.0044in" />
+![](../../assets/images/image13.png){ style="width:5.16458in;height:3.0044in" }
 
 Figure 2: The Middle-out process is non-linear in nature and is key to Agile Systems Engineering
 

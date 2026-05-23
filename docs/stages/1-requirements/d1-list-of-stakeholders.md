@@ -115,7 +115,7 @@ To identify stakeholders, take the following steps:
 
 - Stakeholders with **low power** and **low interest** are the **least important stakeholders**.
 
-<img src="../../assets/images/image22.png" style="width:5.14058in;height:2.95448in" />
+![](../../assets/images/image22.png){ style="width:5.14058in;height:2.95448in" }
 
 Figure 1: Power vs Interest Matrix
 
@@ -321,7 +321,7 @@ Below we outline the instructions specific to each type of evidence:
 
         2.  Take a screenshot of the meeting minutes along with the acknowledgement.
 
-        3.  On Innoslate, go to “Database” view, click <img src="../../assets/images/image16.png" style="width:0.82672in;height:0.23148in" />, and choose Artifact.
+        3.  On Innoslate, go to “Database” view, click ![](../../assets/images/image16.png){ style="width:0.82672in;height:0.23148in" }, and choose Artifact.
 
         4.  Enter a meaningful name (e.g., Factory Visit – Maintenance Supervisor – 12 Jan) which includes date, stakeholder role, and context of data collection.
 
@@ -352,7 +352,7 @@ Below we outline the instructions specific to each type of evidence:
 
     1.  <u>Creating Artifact</u>
 
-        1.  On Innoslate, go to “Database” view, click <img src="../../assets/images/image16.png" style="width:0.82672in;height:0.23148in" />, and choose Artifact.
+        1.  On Innoslate, go to “Database” view, click ![](../../assets/images/image16.png){ style="width:0.82672in;height:0.23148in" }, and choose Artifact.
 
         2.  Enter a meaningful name (e.g., Factory Visit – Maintenance Supervisor – 12 Jan) which includes date, stakeholder role, and context of data collection.
 
@@ -378,7 +378,7 @@ Below we outline the instructions specific to each type of evidence:
 
     1.  <u>Creating an artifact</u>
 
-        1.  On Innoslate, go to “Database” view, click <img src="../../assets/images/image16.png" style="width:0.82672in;height:0.23148in" />, and choose Artifact.
+        1.  On Innoslate, go to “Database” view, click ![](../../assets/images/image16.png){ style="width:0.82672in;height:0.23148in" }, and choose Artifact.
 
         2.  Enter a meaningful name (e.g., Factory Visit – Maintenance Supervisor – 12 Jan) which includes date, stakeholder role, and context of data collection.
 
@@ -508,7 +508,7 @@ Below are the steps to **create a User Needs Document** and **add Statement enti
 
     1.  Add new Statement entity
 
-        1.  Click on the <img src="../../assets/images/image11.png" style="width:0.53646in;height:0.25876in" /> button to create a new Statement entity.
+        1.  Click on the ![](../../assets/images/image11.png){ style="width:0.53646in;height:0.25876in" } button to create a new Statement entity.
 
         2.  Number the statement as ”UN.1.n”.
 

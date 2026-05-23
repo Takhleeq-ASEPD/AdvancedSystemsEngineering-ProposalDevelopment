@@ -117,6 +117,26 @@ ANCHOR_RE = re.compile(r'<a id="[^"]*"></a>\s*')
 FIRST_H1_RE = re.compile(r"^\s*#\s+\*\*\s*\d+[.)]\s*[^*]+\*\*\s*$")
 # Image path rewrite: docs/assets/media-extracted/media/imageN.png -> ../../assets/images/imageN.png
 IMAGE_PATH_RE = re.compile(r"docs/assets/media-extracted/media/")
+# Pandoc emits raw <img> tags with absolute width/height; we convert to markdown
+# image syntax so MkDocs resolves the path correctly under directory URLs.
+IMG_TAG_RE = re.compile(r'<img\s+([^>]*?)/?>', re.IGNORECASE)
+_IMG_SRC_RE = re.compile(r'\bsrc="([^"]+)"')
+_IMG_STYLE_RE = re.compile(r'\bstyle="([^"]+)"')
+_IMG_ALT_RE = re.compile(r'\balt="([^"]+)"')
+
+
+def _convert_img_tag(match: re.Match) -> str:
+    attrs = match.group(1)
+    src_m = _IMG_SRC_RE.search(attrs)
+    if not src_m:
+        return match.group(0)
+    src = src_m.group(1)
+    style_m = _IMG_STYLE_RE.search(attrs)
+    alt_m = _IMG_ALT_RE.search(attrs)
+    out = f"![{alt_m.group(1) if alt_m else ''}]({src})"
+    if style_m:
+        out += f'{{ style="{style_m.group(1)}" }}'
+    return out
 
 
 def downshift_headings(body: str) -> str:
@@ -183,6 +203,7 @@ def trim_trailing_preamble(body: list[str]) -> list[str]:
 def rewrite_paths(text: str) -> str:
     text = ANCHOR_RE.sub("", text)
     text = IMAGE_PATH_RE.sub("../../assets/images/", text)
+    text = IMG_TAG_RE.sub(_convert_img_tag, text)
     return text
 
 
