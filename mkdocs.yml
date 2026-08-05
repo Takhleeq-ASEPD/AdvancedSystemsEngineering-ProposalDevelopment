@@ -90,6 +90,8 @@ nav:
       - D4 · Verification Requirements (System): stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md
   - Stage 3 – Stage Synthesis:
       - Overview: stages/3-stage-synthesis/index.md
+      - Initial System Architecture – Stage Overview: stages/3-stage-synthesis/stage-overview.md
+      - D0 · Subsystem Identification (prerequisite): stages/3-stage-synthesis/d0-subsystem-identification.md
       - D1 · Low Level Action Diagram: stages/3-stage-synthesis/d1-low-level-action-diagram.md
       - D2 · Physical I/O and Asset Diagram: stages/3-stage-synthesis/d2-physical-i-o-and-asset-diagram.md
       - D3 · Functional Requirements Document (FRD): stages/3-stage-synthesis/d3-functional-requirements-document-frd.md
