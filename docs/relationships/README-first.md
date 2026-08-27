@@ -8,11 +8,19 @@ title: Start here
 |---|---|
 | `index.md` | Relationship guidelines, corrections applied, no verdict column |
 | `with-verdicts.md` | The same table plus Correct / Incorrect / Caution and the reasoning |
-| `open-comments.md` | The 50 unresolved review comments, by rank, with real Google IDs |
+| `open-comments.md` | The 50 unresolved comments, each with the exact text it was attached to and the file that text is in |
 | `stage1-checklist-patch.md` | Four checklist sections to paste back into the Stage 1 page |
 
 Both guideline versions are Sadaf's and both carry open comments, so both get edited for now.
 One of them goes once the changes are propagated. Not yet.
+
+## How to work through the comments
+
+Each entry in `open-comments.md` gives the comment ID, the file, the section heading and **the exact
+sentence the comment was attached to**. That is enough to make the change in place without hunting.
+
+**Fix in place. Do not propagate unless the comment says to.** A consistency pass at the end catches
+everything else, and doing it that way keeps each commit small enough to review.
 
 ## The corrected verbs are here. The stage pages still have the old ones.
 
