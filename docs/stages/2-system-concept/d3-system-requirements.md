@@ -3,7 +3,7 @@ title: "System Requirements"
 stage: "System Concept"
 deliverable_id: stage2-d3
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-08-27
 ---
 
 # System Requirements
@@ -127,12 +127,7 @@ For each System Requirement:
 <!-- comment:8 -->
 
 
-- Create relationship **“allocated to”** → Action, Asset, or Subsystem (if defined)
-
-??? note "Sadaf · 2026-05-15"
-    replace allocated to with "performs".  Asset (performs) Action
-<!-- comment:10 -->
-
+- Create relationship **“performs”** → Asset (performs) Action
 
 This ensures:
 
