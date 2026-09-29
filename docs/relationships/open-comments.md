@@ -57,7 +57,7 @@ A consistency pass at the end catches the rest.
 
 > replace allocated to with "performs".   Asset (performs) Action
 
-- [ ] applied
+- [x] applied
 
 ### `AAAB4xFXrvE`
 

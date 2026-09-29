@@ -135,3 +135,23 @@ The editor publishes by merging a feature branch into `main` and pushing
 `main`. The GitHub Action then deploys to GitHub Pages. You do not run
 any of these steps — you only produce the file changes that the editor
 then commits.
+
+## Current job: Sadaf's open comments, on the `restore` branch
+
+This section overrides anything above that conflicts with it.
+
+- All work happens on the `restore` branch. Nothing goes to `main` until Munzir decides.
+- The list of work is `docs/relationships/open-comments.md`. It has 50 open comments, not 40.
+  Each entry gives the comment ID, the file, the section and the exact sentence it is attached to.
+- Work on **one comment per request**, identified by its ID (e.g. `AAAB6feBJ4M`).
+- **Fix in place.** Change only the spot the comment is attached to. Do not change the same
+  wording anywhere else, unless the comment itself says to. A consistency pass at the very end
+  will handle propagation.
+- If the anchored sentence clearly doesn't match what the comment is about, stop and say so.
+  February anchors may have drifted. Don't guess a location.
+- If the same comment also sits in the page as a `??? note "Sadaf · ..."` admonition, delete that
+  admonition as part of the fix.
+- In `open-comments.md`, change that comment's `- [ ] applied` to `- [x] applied`.
+- Relationship verbs: Innoslate implements LML 1.4. If a fix names a relationship verb, remind the
+  editor to confirm it against the relationship dropdown in Innoslate before committing.
+- Finish with the `Files modified` list, as in hard rule 3.
