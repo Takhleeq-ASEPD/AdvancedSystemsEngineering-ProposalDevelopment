@@ -141,14 +141,14 @@ then commits.
 This section overrides anything above that conflicts with it.
 
 The work list is `docs/relationships/open-comments.md`. Every open comment in it has a **Status** block.
-**Use the Status block. Never use the "Anchored on" line or the "File:" line to find the spot**: many of
-those are wrong.
+**Use the Status block to find the spot.** The "Anchored on" and "File" lines are there for context only.
+The Google Doc is no longer edited: the repo is the master copy.
 
 ### Which comments you may work on
 
 - **Ready**: yes.
 - **Draft**: yes, but say clearly in your proposal that the wording is new and Munzir must review it.
-- **Find in Google Doc** or **Munzir decides**: no. Say which status it has and stop.
+- **Done** or **Munzir decides**: no. Say which status it has and stop.
 
 ### Procedure for "Fix comment <ID>"
 

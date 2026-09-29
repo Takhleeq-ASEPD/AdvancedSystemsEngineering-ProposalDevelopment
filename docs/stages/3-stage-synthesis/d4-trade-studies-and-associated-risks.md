@@ -3,7 +3,7 @@ title: "Trade Studies and Associated Risks"
 stage: "Stage Synthesis"
 deliverable_id: stage3-d4
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-09-29
 ---
 
 # Trade Studies and Associated Risks
@@ -256,19 +256,13 @@ For any parameter that cannot yet be derived — whether due to missing stakehol
 
 **4b. Link to Requirements**
 
-1.  In the Artifact's relationships panel, add a **“satisfies”** relationship to each relevant subsystem requirement.
+1.  In the Artifact's relationships panel, add a **“satisfies”** relationship to each relevant upstream requirement that the Trade Study aims to satisfy.
 
-??? note "Sadaf · 2026-04-28"
-    modify instructions according to the following principle: in the triangle: - upstream requirement - trade study - downstream requirement t satisfies u d sourced by t d traced from u
-<!-- comment:25 -->
+2.  The derived requirements resulting from the Trade Study are to be “sourced by” the Trade Study.
 
+3.  The derived requirements are also to be “traced from” the upstream requirements the Trade Study satisfies.
 
-??? note "Sadaf · 2026-04-17"
-    derived reqs (sourced by) the trade study (avoid trade study is traced from derived reqs) in the triangle: - upstream requirement - trade study - downstream requirement t satisfies u d sourced by t d traced from u
-<!-- comment:16 -->
-
-
-2.  If the literature review revealed a requirement that is not yet captured, add it to the requirements document first, then link it here.
+4.  If the literature review revealed a requirement that is not yet captured, add it to the requirements document first, then link it here.
 
 **4c. Capture Issues and Decisions**
 
@@ -342,9 +336,9 @@ For the recommended technology class, assess risks across the following categori
 
 #### **Assignee** — who is responsible for monitoring and mitigating it.
 
-#### Link the Risk entity to the trade study artifact using the “**related to”** relationship.
+#### Link the Risk entity to the trade study artifact using the “**references”** relationship.
 
-#### Link it to the affected requirement(s) using the **“traced from”** relationship.
+#### Link it to the affected requirement(s) using the **“caused by”** relationship.
 
 #### 
 

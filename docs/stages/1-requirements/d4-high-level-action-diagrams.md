@@ -3,7 +3,7 @@ title: "High-Level Action Diagrams"
 stage: "Requirements"
 deliverable_id: stage1-d4
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-09-29
 ---
 
 # High-Level Action Diagrams
@@ -54,16 +54,11 @@ The following steps are followed depending on how detailed our system-level conc
 
 <!-- -->
 
-1.  Create relationship “satisfies” for every use case/scenario with the relevant functional requirements in the Stakeholder Requirements document.
+1.  Create relationship “traced from” for every use case/scenario with the relevant functional requirements in the Stakeholder Requirements document. Scenario is traced from Stakeholder Requirement.
 
 ??? note "Sadaf · 2026-05-21"
     This should be "traced from" in stage 3 under "Low-level action diagrams": if they are serving as requirements, the same relationship should appear if they serve as design choice, use Action "satisfies" Requirement relationship
 <!-- comment:31 -->
-
-
-??? note "Sadaf · 2026-04-28"
-    Use case/scenario (traced from) Stakeholder requirement.
-<!-- comment:3 -->
 
 
 ![](../../assets/images/image15.png){ style="width:4.10625in;height:4.8258in" }

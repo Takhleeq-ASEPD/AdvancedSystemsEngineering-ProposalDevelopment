@@ -57,7 +57,7 @@ The comment list is at `.../relationships/open-comments/`.
 
 One comment, one commit. Small commits are what make mistakes easy to undo.
 
-Skip every comment marked **Find in Google Doc** or **Munzir decides**. Claude will refuse them anyway.
+Skip every comment marked **Done** or **Munzir decides**. Claude will refuse them anyway.
 
 ## When to stop and ask Munzir
 

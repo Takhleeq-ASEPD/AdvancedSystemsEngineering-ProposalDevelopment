@@ -3,7 +3,7 @@ title: "System Requirements"
 stage: "System Concept"
 deliverable_id: stage2-d3
 status: draft
-last_reviewed: 2026-08-27
+last_reviewed: 2026-09-29
 ---
 
 # System Requirements
@@ -101,31 +101,11 @@ For each trade study decision:
 
 For each System Requirement:
 
-- Create relationship **“refines” or “satisfies”** → Stakeholder Requirement
-
-??? note "Sadaf · 2026-05-15"
-    System Req (traced from) Stakeholder Req
-<!-- comment:7 -->
-
-
-??? note "Sadaf · 2026-04-28"
-    incorrect. "traced from"
-<!-- comment:6 -->
-
+- Create relationship **“traced from”** → System Req traced from Stakeholder Requirement
 
 - Create relationship **“enabled by”** → Decision entity (if applicable)
 
-- Create relationship **“derived from”** → Trade Study (Artifact)
-
-??? note "Sadaf · 2026-05-15"
-    System Req (sourced by) Trade Study
-<!-- comment:9 -->
-
-
-??? note "Sadaf · 2026-04-28"
-    incorrect. "sourced by"
-<!-- comment:8 -->
-
+- Create relationship **“sourced by”** → Trade Study (Artifact)
 
 - Create relationship **“performs”** → Asset (performs) Action
 

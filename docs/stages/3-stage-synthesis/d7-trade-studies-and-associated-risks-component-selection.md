@@ -3,7 +3,7 @@ title: "Trade Studies and Associated Risks (Component Selection)"
 stage: "Stage Synthesis"
 deliverable_id: stage3-d7
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-09-29
 ---
 
 # Trade Studies and Associated Risks (Component Selection)
@@ -153,12 +153,7 @@ Follow the same process as Deliverable 4 Step 5, but with risks specific to the 
 
     - **Environmental risk** — does the component's rated operating range match the environmental requirements in SRD Section 3.9?
 
-2.  For each risk, create a Risk entity in Innoslate following the same format as Deliverable 4: unique ID, description, likelihood, consequence, assignee. Link it to the selected component Asset entity using "related to" and to the affected requirement using "traced from."
-
-??? note "Sadaf · 2026-04-28"
-    RIsk caused by Asset Risk caused by Requirement
-<!-- comment:26 -->
-
+2.  For each risk, create a Risk entity in Innoslate following the same format as Deliverable 4: unique ID, description, likelihood, consequence, assignee. Link it to the selected component Asset entity using "caused by" and to the affected requirement using "caused by".
 
 3.  For any risk rated Medium or above, document a mitigation strategy. The fallback component identified in Step 4 serves as the primary mitigation for supply chain and obsolescence risks — link the fallback component Asset to the Risk entity using "resolves."
 

@@ -4,38 +4,31 @@ title: Open review comments
 
 # Open review comments
 
-Fifty unresolved threads from the source document. Each one carries **the exact text it was
+Fifty-one review threads from the source document (fifty from the original list, one added on 29 September). Each one carries **the exact text it was
 attached to** and the file that text is in, so a change can be made in place rather than searched for.
 
-Recovered by pairing the inline comment anchors in the source with the comment threads in document
-order. 115 anchors, 115 threads, one to one.
-
-!!! warning "Confidence"
-    Anchors from April and May land precisely. February anchors may have drifted, because Google
-    moves a comment's anchor when the text around it is edited and this document was restructured
-    several times. Where the anchored text below does not obviously relate to the comment, trust
-    the comment and re-read the section rather than trusting the anchor.
+Every "Anchored on" line below was taken directly from the Google Doc on 29 September 2026, using the comment markers in Google's own export. They replace an earlier list that was reconstructed by pairing and was wrong in many places.
 
 **Working rule:** fix each comment in place. Only propagate when the comment itself says to.
 A consistency pass at the end catches the rest.
 
-## Status summary (checked 29 September 2026)
+## Status summary (29 September 2026)
 
-**Read this before using the "Anchored on" lines below.** Those anchors were recovered automatically, and about
-half are wrong or unusable: some point at text that has since moved, some are one or two words, and in several
-places neighbouring comments had their anchors swapped. Every open comment now carries a **Status** block,
-checked by hand against the current files. Trust the Status block, not the anchor.
+Every comment carries a **Status** block. Use it, not the "File" line, to find where to work.
 
 | Status | Meaning | Count |
 |---|---|---|
-| **Ready** | Spot confirmed, change spelled out. The editor fixes it. | 12 |
-| **Draft** | Spot confirmed, but the fix needs new wording. The editor drafts it, Munzir reviews before merge. | 5 |
-| **Find in Google Doc** | Spot not known. Look it up in the original Google Doc first. | 12 |
-| **Munzir decides** | Needs a decision, not an edit: future iterations, questions, your own comments, stage-wide passes. | 20 |
+| **Done** | Applied in the repo. Box ticked. | 8 |
+| **Ready** | Spot confirmed, change spelled out. The editor fixes it. | 6 |
+| **Draft** | Spot confirmed, but the fix needs new wording. The editor drafts it, Munzir reviews before merge. | 8 |
+| **Munzir decides** | Needs a decision, not an edit: questions, future iterations, Munzir's own comments, stage-wide passes. | 29 |
 
-**Ready:** `AAAB4xFXrvE`, `AAAB4xFXrrk`, `AAAB5d3-5l8`, `AAAB4xFXrqw`, `AAAB4xFXrrE`, `AAAB5d3-5l0`, `AAAB3YKxxYg`, `AAAB4xlgcPo`, `AAAB4xlgcPw`, `AAAB5eBvJ7o`, `AAAB6wHzTzk`, `AAABzXMVlDs`
+**Ready:** `AAAB5d3-5l8`, `AAAB5d3-5l0`, `AAAB5eBvJ7o`, `AAAB6wHzTzk`, `AAABzXMVlDs`, `AAAB6wHzTzg`
 
-**Draft:** `AAAB6wHzTzc`, `AAAB57gYWLs`, `AAAB6feBJ5M`, `AAAB6wHzTzQ`, `AAAB5eL9tMg`
+**Draft:** `AAAB6wHzTzc`, `AAAB57gYWLs`, `AAAB6feBJ5M`, `AAAB5eL9tMg`, `AAAB6wHzTzQ`, `AAAB60w8-zo`, `AAAB6wHzTzI`, `AAAB6wHzTzA`
+
+**The Google Doc is no longer edited.** The repo is the master copy from 29 September 2026. Fixes made in the doc on
+25 August have been ported here.
 
 ---
 
@@ -44,13 +37,13 @@ checked by hand against the current files. Trust the Status block, not the ancho
 ### `AAAB60w8-zg`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/with-verdicts.md` (near line 29)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Relationship freeze (T15), all filters (T17,T18)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> "satisfies"** | **
+> Relationship is valid in base LML 2.0
 
 **Comment:**
 
@@ -67,30 +60,34 @@ checked by hand against the current files. Trust the Status block, not the ancho
 ### `AAAB6feBJ4M`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/2-system-concept/d3-system-requirements.md`
+- **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 110)
 - **Section:** 2.
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Derive Requirements from Architecture & Trade Studies
+> Create relationship **“performs”** →
 
 **Comment:**
 
 > replace allocated to with "performs".   Asset (performs) Action
+
+**Status: Done**
+
+Fixed in the repo on 27 August (commit 3465079).
 
 - [x] applied
 
 ### `AAAB4xFXrvE`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/2-system-concept/d3-system-requirements.md`
+- **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 108)
 - **Section:** 3. Create Required Relationships in Innoslate
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Create relationship **“derived from”** → Trade Study (Artifact)
+> Create relationship **“sourced by”** → Trade Study (Artifact)
 
 **Comment:**
 
@@ -98,32 +95,20 @@ checked by hand against the current files. Trust the Status block, not the ancho
 
 > **Sadaf Shaikh replied:** System Req (sourced by) Trade Study
 
-**Status: Ready**
+**Status: Done**
 
-**Where:** `docs/stages/2-system-concept/d3-system-requirements.md`, near line 118
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-**Search for this exact text** (it appears exactly once):
-
-```text
-- Create relationship **“derived from”** → Trade Study (Artifact)
-```
-
-**Change:** Change **derived from** to **sourced by** (System Req sourced by Trade Study).
-
-**Also delete the inline note(s) starting:** `incorrect. "sourced by"`; `System Req (sourced by) Trade Study`
-
-**Why this is the right spot:** Comment text and both inline notes sit on this exact line.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB5d3-5l8`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md`
+- **File:** `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 131)
 - **Section:** (none)
 - **Blocks:** Freeze (T15), V&V design
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Trace Verification Requirements to Test Cases (Optional)
 
@@ -147,99 +132,79 @@ checked by hand against the current files. Trust the Status block, not the ancho
 
 **Also delete the inline note(s) starting:** `what about tracing to system requirements?`; `System Req (verified by) Verification Req`
 
-**Why this is the right spot:** Anchor and both inline notes agree.
-
 - [ ] applied
 
 ### `AAAB4xlgcPk`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 345) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** 2c. Create Pugh Matrix
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> It's a good practice to be explicit about all assumptions underlying the scenario.
+> “caused by”**
 
 **Comment:**
 
 > Risk (caused by) Requirement
 
-**Status: Find in Google Doc**
+**Status: Done**
 
-**Likely spot:** Probably Deliverable 4 (stage 3), step 4c.4: "Link the entity to the trade study artifact using the **caused by** relationship...". The listed anchor (about assumptions) is unrelated.
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB4xlgcPg`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`
+- **File:** not found in the repo by its anchor text
 - **Section:** 3d. Add an Engineering Margin
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Final Specified Value** - Record the final specified value, computed by applying the margin factor to the derived value from Column 6. This is the value that enters the formal requirements document.
+> “**references”**
 
 **Comment:**
 
 > Risk (references) trade study
 
-**Status: Find in Google Doc**
+**Status: Done**
 
-**Likely spot:** Probably the same step as AAAB4xlgcPk (Deliverable 4, step 4c.4). The listed anchor (Final Specified Value) is unrelated.
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB4xlgcPw`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`
+- **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 156)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> add a **“satisfies”** relationship to the subsystem requirements.
+> component Asset entity using "caused by" and to the affected requirement using "caused by"
 
 **Comment:**
 
 > RIsk caused by Asset Risk caused by Requirement
 
-**Status: Ready**
+**Status: Done**
 
-**Where:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`, near line 156
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-**Search for this exact text** (it appears exactly once):
-
-```text
-2.  For each risk, create a Risk entity in Innoslate following the same format as Deliverable 4: unique ID, description, likelihood, consequence, assignee. Link it to the selected component Asset entity using "related to" and to the affected requirement using "traced from."
-```
-
-**Change:** Change both links: Risk **caused by** component Asset, and Risk **caused by** the affected Requirement.
-
-**Also delete the inline note(s) starting:** `RIsk caused by Asset Risk caused by Requirement`
-
-**Why this is the right spot:** The listed anchor was swapped with AAAB4xlgcPo. This comment is about linking a Risk; the inline note sits under this line.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB4xFXrqw`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/1-requirements/d3-stakeholder-requirements-document.md`
+- **File:** not found in the repo by its anchor text (comment no longer in the Google Doc)
 - **Section:** Why this deliverable is important
 - **Blocks:** Freeze (T15), trade study guidance
 
-**Anchored on:**
-
-> Create relationship of trade study with Issue using “resolves”.
+**Anchored on:** comment no longer exists in the Google Doc.
 
 **Comment:**
 
@@ -247,65 +212,41 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 > **Sadaf Shaikh replied:** so Replace relationship between trade study and risk(modelled as issue) with decision and risk.  trade study (enables) decision (resolves) issue (modelled as issue)
 
-**Status: Ready**
+**Status: Munzir decides**
 
-**Where:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md`, near line 74
-
-**Search for this exact text** (it appears exactly once):
-
-```text
-3.  Resolve issues/risks through trade studies and discussion with customers. Create Trade Study document as Artifact and add a label “Trade Study”. Create relationship of trade study with Issue using “resolves”.
-```
-
-**Change:** Replace the last sentence with: create a Decision entity; Trade Study **enables** Decision; Decision **resolves** Issue.
-
-**Also delete the inline note(s) starting:** `so Replace relationship between trade study`; `resolves in LML connects any entity`
-
-**Why this is the right spot:** Anchor text found exactly; both inline notes sit on this step.
+**Why:** Deleted from the Google Doc, but not applied: both the doc and the repo still say "trade study ... resolves Issue". Sadaf asked for Decision **resolves** Issue instead. Apply, or drop?
 
 - [ ] applied
 
 ### `AAAB4xFXrrE`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/1-requirements/d4-high-level-action-diagrams.md`
+- **File:** `docs/stages/1-requirements/d4-high-level-action-diagrams.md` (near line 57)
 - **Section:** Why this deliverable is important
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Create relationship “satisfies” for every use case/scenario with the relevant functional requirements in the Stakeholder Requirements document.
+> Create relationship “traced from” for every use case/scenario with the relevant functional requirements in the Stakeholder Requirements document.
 
 **Comment:**
 
 > Use case/scenario (traced from) Stakeholder requirement.
 
-**Status: Ready**
+**Status: Done**
 
-**Where:** `docs/stages/1-requirements/d4-high-level-action-diagrams.md`, near line 57
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-**Search for this exact text** (it appears exactly once):
-
-```text
-1.  Create relationship “satisfies” for every use case/scenario with the relevant functional requirements in the Stakeholder Requirements document.
-```
-
-**Change:** Change **satisfies** to **traced from** (use case/scenario traced from Stakeholder Requirement). Note for the consistency pass: the relationship table currently says Action **traced to** Requirement.
-
-**Also delete the inline note(s) starting:** `Use case/scenario (traced from) Stakeholder requirement.`
-
-**Why this is the right spot:** Anchor and inline note agree. Leave the other note on this line ("This should be traced from...") in place; it belongs to AAAB60w8-zU.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB5d3-5l0`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md`
+- **File:** `docs/stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md` (near line 117)
 - **Section:** Why this deliverable is important
 - **Blocks:** Freeze (T15), V&V design
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Trace to test cases (optional)
 
@@ -327,20 +268,18 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Also delete the inline note(s) starting:** `Add instructions for creating relationship: Stakeholder req`
 
-**Why this is the right spot:** Anchor and inline note agree.
-
 - [ ] applied
 
 ### `AAAB4xFXrrk`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/2-system-concept/d3-system-requirements.md`
+- **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 104)
 - **Section:** 3. Create Required Relationships in Innoslate
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Create relationship **“allocated to”** → Action, Asset, or Subsystem (if defined)
+> Create relationship **“traced from”** → System Req traced from Stakeholder Requirement
 
 **Comment:**
 
@@ -348,67 +287,44 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 > **Sadaf Shaikh replied:** System Req (traced from) Stakeholder Req
 
-**Status: Ready**
+**Status: Done**
 
-**Where:** `docs/stages/2-system-concept/d3-system-requirements.md`, near line 104
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-**Search for this exact text** (it appears exactly once):
-
-```text
-- Create relationship **“refines” or “satisfies”** → Stakeholder Requirement
-```
-
-**Change:** Change **refines or satisfies** to **traced from** (System Req traced from Stakeholder Req).
-
-**Also delete the inline note(s) starting:** `incorrect. "traced from"`; `System Req (traced from) Stakeholder Req`
-
-**Why this is the right spot:** The listed anchor ("allocated to" line) is wrong: that line belongs to AAAB6feBJ4M. This comment is about the Stakeholder Requirement link, and both inline notes sit under this line.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB3YKxxYg`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 259)
 - **Section:** 4a. Create the Trade Study Artifact
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> dd a **“satisfies”** relationship to each relevant subsystem requirement.
+> dd a **“satisfies”** relationship to each relevant upstream requirement that the Trade Study aims to satisfy
+> 2.
 
 **Comment:**
 
 > derived reqs (sourced by) the trade study (avoid trade study is traced from derived reqs)  in the triangle: - upstream requirement - trade study - downstream requirement  t satisfies u d sourced by t d traced from u
 
-**Status: Ready**
+**Status: Done**
 
-**Where:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`, near line 259
+Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 September.
 
-**Search for this exact text** (it appears exactly once):
-
-```text
-1.  In the Artifact's relationships panel, add a **“satisfies”** relationship to each relevant subsystem requirement.
-```
-
-**Change:** Rewrite step 4b.1 by the triangle rule: trade study **satisfies** upstream requirement; derived (downstream) requirement **sourced by** trade study; derived requirement **traced from** upstream requirement. Do not link trade study as traced from derived requirements.
-
-**Also delete the inline note(s) starting:** `modify instructions according to the following principle`; `derived reqs (sourced by) the trade study`
-
-**Why this is the right spot:** Anchor and both inline notes agree.
-
-- [ ] applied
+- [x] applied
 
 ### `AAAB6wHzTzc`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`
+- **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 158)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Freeze (T15), risk guidance
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> In Innoslate, create an Asset entity for each selected component. Record the following attributes: component name, manufacturer, model number, and a link to the datasheet as a reference artifact.
+> For any risk rated Medium or above, document a mitigation strategy. The fallback component identified in Step 4 serves as the primary mitigation for supply chain and obsolescence risks — link the fallback component Asset to the Risk entity using "resolves."
 
 **Comment:**
 
@@ -416,7 +332,7 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Draft**
 
-**Where:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`, near line 163
+**Where:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`, near line 158
 
 **Search for this exact text** (it appears exactly once):
 
@@ -428,51 +344,41 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Also delete the inline note(s) starting:** `component cannot resolve a risk`
 
-**Why this is the right spot:** The inline note sits on this line and the comment is about it.
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
 ### `AAAB4xlgcPo`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 259) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 134)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> component Asset entity using "related to" and to the affected requirement using "traced from."
+> In the Artifact's relationships panel, add a **“satisfies”** relationship to the subsystem requirements
 
 **Comment:**
 
 > modify instructions according to the following principle:  in the triangle: - upstream requirement - trade study - downstream requirement   t satisfies u d sourced by t d traced from u
 
-**Status: Ready**
+**Status: Munzir decides**
 
-**Where:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`, near line 134
-
-**Search for this exact text** (it appears exactly once):
-
-```text
-4.  In the Artifact's relationships panel, add a **“satisfies”** relationship to the subsystem requirements.
-```
-
-**Change:** Rewrite this step by the triangle rule, the same way as AAAB3YKxxYg: trade study **satisfies** upstream requirement; derived requirement **sourced by** trade study; derived requirement **traced from** upstream requirement.
-
-**Why this is the right spot:** The listed anchor was swapped with AAAB4xlgcPw. This comment (the trade study triangle) fits this Step 6 line; it is the same rule as AAAB3YKxxYg in Deliverable 4.
+**Why:** Resolved in the Google Doc on 25 August, but the wording was not changed there. Accept as is, or reopen and apply the triangle rule as in Deliverable 4 step 4b?
 
 - [ ] applied
 
 ### `AAAB60w8-zU`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 29) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15), action diagram guidance
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Measure → Requirement
+> "satisfies"** | **
 
 **Comment:**
 
@@ -480,20 +386,20 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Munzir decides**
 
-**Why:** Its first half ("traced from") is covered by AAAB4xFXrrE. Its second half asks for a new rule in the Stage 3 Low-level Action Diagram page, which has no relationship step yet. Decide where it goes.
+**Why:** Its first half ("traced from") is done (see AAAB4xFXrrE). Its second half asks for a new rule in the Stage 3 Low-level Action Diagram page, which has no relationship step yet. Decide where it goes.
 
 - [ ] applied
 
 ### `AAAB6wHzTzY`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 27) and `docs/relationships/with-verdicts.md` (near line 40)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15), guidelines (T45)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Low -level Action Diagrams (Del. 1) |
+> Decision → Risk
 
 **Comment:**
 
@@ -508,59 +414,77 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB6wHzTzI`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 52) and `docs/relationships/with-verdicts.md` (near line 65)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15), interface guidance
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Component TradeStudies (Del. 7) |
+> Physical I/O(Del. 2)
 
 **Comment:**
 
 > Asset connects to Conduit
 
-**Status: Find in Google Doc**
+**Status: Draft**
 
-**Likely spot:** Somewhere in the relationship tables. Listed on a Component Trade Studies row, but an inline note of the same text sits in the Stage 1 Context Diagram page. Unclear which.
+**Where:** `docs/relationships/with-verdicts.md`, near line 66
+**Where:** `docs/relationships/index.md`, near line 53
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Search for this exact text** (it appears exactly once in each file):
+
+```text
+| Asset → Asset (hierarchy) |
+```
+
+**Change:** Add a row after this one: Physical I/O (Del. 2) | Asset → Conduit | **"connected to"** (Asset connects to Conduit). Check the exact verb in Innoslate. Both files.
+
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
 ### `AAAB6wHzTzA`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 50) and `docs/relationships/with-verdicts.md` (near line 63)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Component TradeStudies (Del. 7) |
+> Low -level Action Diagrams    (Del. 1) |
 
 **Comment:**
 
 > Action uses Resource
 
-**Status: Find in Google Doc**
+**Status: Draft**
 
-**Likely spot:** Somewhere in the relationship tables, listed on a Component Trade Studies row. Unclear whether to add a row or change one.
+**Where:** `docs/relationships/with-verdicts.md`, near line 64
+**Where:** `docs/relationships/index.md`, near line 51
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Search for this exact text** (it appears exactly once in each file):
+
+```text
+| Action → Action (decomposition) |
+```
+
+**Change:** Add a row after this one: Low-level Action Diagrams (Del. 1) | Action → Resource | **"uses"** (Action uses Resource). Both files.
+
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
 ### `AAAB6wHzTy4`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 62) and `docs/relationships/with-verdicts.md` (near line 75)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> See note above for Trade Studies (Del. 4 & 7). Valid generic link. Acceptable. | |
+> Component TradeStudies (Del. 7) |
 
 **Comment:**
 
@@ -568,7 +492,7 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Munzir decides**
 
-**Why:** Stage 3 Deliverable 7 step 6.5 already says the component Asset **references** the trade study. Decide whether the table needs a row too.
+**Why:** Deliverable 7 step 6.5 already says the component Asset **references** the trade study. Decide whether the table needs a row too.
 
 - [ ] applied
 
@@ -577,13 +501,13 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB60w8-3Q`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 132) and `docs/relationships/with-verdicts.md` (near line 145)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines revision (T45)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Relationship is valid in base LML 2.0
+> End-to-End Traceability Chain Reference
 
 **Comment:**
 
@@ -598,37 +522,45 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB60w8-zo`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `docs/relationships/index.md and with-verdicts.md`
+- **File:** `docs/relationships/index.md` (near line 58) and `docs/relationships/with-verdicts.md` (near line 71)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines revision (T45)
-- *section*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> "traced from"**
+> Measure → Requirement
 
 **Comment:**
 
 > Invert this so students are not confused when comparing with the deliverable guidelines
 
-**Status: Find in Google Doc**
+**Status: Draft**
 
-**Likely spot:** One of the "traced from" cells in the relationship tables. There are several.
+**Where:** `docs/relationships/with-verdicts.md`, near line 71
+**Where:** `docs/relationships/index.md`, near line 58
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Search for this exact text** (it appears exactly once in each file):
+
+```text
+| Measure → Requirement |
+```
+
+**Change:** Invert the row so it reads Requirement → Measure with **"specified by"**, matching how the stage pages instruct it. In `with-verdicts.md`, update the verdict and explanation to match. Both files.
+
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
 ### `AAAB60w8-zM`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 25) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** 4.
 - **Blocks:** Guidelines revision (T45), compliance queries
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> End-to-End Traceability Chain Reference
+> "traced from"**
 
 **Comment:**
 
@@ -645,13 +577,13 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB5eBvJ7o`
 
 - **Sadaf Shaikh**, 2026-05-07
-- **File:** `stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`
+- **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 103)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Template project (T19) — EARLIER than the freeze
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> llocate the component Asset to the Actions it performs using the "performs" relationship, consistent with the functional allocation from Deliverable 3.**
+> In Innoslate, create an Asset entity for each selected component. Record the following attributes: component name, manufacturer, model number, and a link to the datasheet as a reference artifact.
 
 **Comment:**
 
@@ -671,21 +603,18 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Also delete the inline note(s) starting:** `also, add the label "Selected component"`
 
-**Why this is the right spot:** The inline note sits on this step. A label belongs where the Asset is created.
-
 - [ ] applied
 
 ### `AAAB6wHzTzk`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md` (near line 220)
 - **Section:** 3. Step-by-step Instructions
 - **Blocks:** Template project (T19)
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Budget Analys
+> Create a new Artifact entity** (e.g., DAR.1) for the Design Analysis Report. Upload the completed report and link it to any trade studies performed while making design choices in Stage 2 using "related to."
 
 **Comment:**
 
@@ -705,8 +634,6 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Also delete the inline note(s) starting:** `also, add label "Analysis" to this artifact`
 
-**Why this is the right spot:** The listed anchor ("Budget Analys") is a fragment. The comment says "this artifact"; the inline note sits on this Artifact-creation step.
-
 - [ ] applied
 
 ## 5 · SRD auto-link gap
@@ -714,11 +641,11 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB5eL9tMg`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/3-stage-synthesis/d3-functional-requirements-document-frd.md`
+- **File:** `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 243)
 - **Section:** (none)
 - **Blocks:** Traceability standups (T24), quality scan (T25)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Step 9 — Establish links**
 
@@ -736,11 +663,11 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### **Step 9 — Establish links**
 ```
 
-**Change:** Write the steps for linking Actions/Assets to the requirements that "Generate SRD" creates. Needs correct Innoslate steps, so Munzir reviews.
+**Change:** Write the steps for linking Actions/Assets to the requirements that "Generate SRD" creates. Needs correct Innoslate steps.
 
 **Also delete the inline note(s) starting:** `write instructions on establishing links`
 
-**Why this is the right spot:** Anchor and inline note agree.
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
@@ -749,59 +676,53 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzzIlFRc`
 
 - **Sadaf Shaikh**, 2026-02-06
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 338) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** (none)
 - **Blocks:** Guidelines (T45)
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> ** # **
+> “”
 
 **Comment:**
 
 > No relationship that makes sense to me
 
-**Status: Find in Google Doc**
+**Status: Munzir decides**
 
-**Likely spot:** Anchored on a lone "#". No usable location.
-
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Why:** The relationship verb to the Stakeholder entity is blank, and Sadaf says none makes sense. Delete the step, or name a verb?
 
 - [ ] applied
 
 ### `AAABzzIlFO0`
 
 - **Sadaf Shaikh**, 2026-02-06
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 326)
 - **Section:** 4.
 - **Blocks:** Guidelines (T45)
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Context Diagram
+> Enter a meaningful name (e.g., Factory Visit – Maintenance Supervisor – 12 Jan) which includes date, stakeholder role, and context of data collection.
 
 **Comment:**
 
 > mention standard naming convention
 
-**Status: Find in Google Doc**
+**Status: Munzir decides**
 
-**Likely spot:** Anchored on "Context Diagram", section 4. Too short to place.
-
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Why:** Which naming convention to state for raw evidence artifacts.
 
 - [ ] applied
 
 ### `AAAB57gYWUk`
 
 - **Sadaf Shaikh**, 2026-05-08
-- **File:** `stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 57) and `docs/stages/3-stage-synthesis/d9-level-1-and-level-2-planning.md` (near line 73) and `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 43) and `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 117) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 33) and `docs/stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md` (near line 29) and `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 25) and `docs/stages/3-stage-synthesis/d6-verification-requirements.md` (near line 33) and `docs/stages/3-stage-synthesis/d2-physical-i-o-and-asset-diagram.md` (near line 67) and `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 66)
 - **Section:** 4.
 - **Blocks:** Guidelines (T45)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Step-by-Step Instructions
 
@@ -818,13 +739,13 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB6feBJ5M`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `stages/2-system-concept/d3-system-requirements.md`
+- **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 73)
 - **Section:** 3
 - **Blocks:** Guidelines (T45)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> . System Requirements
+> Derive Requirements from Architecture & Trade Studies
 
 **Comment:**
 
@@ -840,25 +761,24 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 #### **2.** **Derive Requirements from Architecture & Trade Studies**
 ```
 
-**Change:** Add instructions for deriving system technical requirements, adapted from the Stage 3 technical requirements instructions (Deliverable 4, step 3). New content, so Munzir reviews.
+**Change:** Add instructions for deriving system technical requirements, adapted from the Stage 3 technical requirements instructions (Deliverable 4, step 3).
 
 **Also delete the inline note(s) starting:** `provide instructions on deriving system technical requirements`
 
-**Why this is the right spot:** The inline note sits under this heading and the comment is about deriving requirements.
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
 ### `AAAB57gYWLs`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 279)
 - **Section:** 1.
 - **Blocks:** Guidelines (T45)
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> What This Deliverable Is
+> For each subsystem requirement in the Technical Requirements Table, create a **Measure** class entity in Innoslate.
 
 **Comment:**
 
@@ -868,7 +788,7 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Draft**
 
-**Where:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`, near line 285
+**Where:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`, near line 279
 
 **Search for this exact text** (it appears exactly once):
 
@@ -876,48 +796,55 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 1.  For each subsystem requirement in the Technical Requirements Table, create a **Measure** class entity in Innoslate.
 ```
 
-**Change:** Add instructions: technical requirements are created manually in the SRD with their Measure entities; technical requirement **specified by** Measure; trace to the upstream system requirement from Stage 2. New wording, so Munzir reviews.
+**Change:** Add instructions: technical requirements are created manually in the SRD with their Measure entities; technical requirement **specified by** Measure; trace to the upstream system requirement from Stage 2.
 
 **Also delete the inline note(s) starting:** `-technical requirements should be created manually`; `if the generated subsystem functional requirement`
 
-**Why this is the right spot:** The listed anchor was not located. Both inline notes sit on this step and the comment is about Measures.
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
 ### `AAAB6wHzTzg`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `docs/relationships/index.md and with-verdicts.md`
+- **File:** `docs/relationships/index.md` (near line 62) and `docs/relationships/with-verdicts.md` (near line 75)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines (T45)
-- *section*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Decision → Risk
+> Component TradeStudies (Del. 7) |
 
 **Comment:**
 
 > add after this: issue "references" Analysis Artifact called "Design Analysis Report"
 
-**Status: Find in Google Doc**
+**Status: Ready**
 
-**Likely spot:** A "Decision → Risk" row in the relationship tables. There are two (Stage 1 and Trade Studies).
+**Where:** `docs/relationships/with-verdicts.md`, near line 77
+**Where:** `docs/relationships/index.md`, near line 64
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Search for this exact text** (it appears exactly once in each file):
+
+```text
+| Risk → Component Asset |
+```
+
+**Change:** Add a new row directly after this one, in both files: Component TradeStudies (Del. 7) | Issue → Design Analysis Report (Artifact) | **"references"**. In `with-verdicts.md`, fill the verdict and explanation columns like the rows around it.
 
 - [ ] applied
 
 ### `AAAB6wHzTzQ`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md`
+- **File:** `docs/relationships/index.md` (near line 64) and `docs/relationships/with-verdicts.md` (near line 77)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines (T45)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Physical I/O(Del. 2)
+> See note above for Trade Studies (Del. 4 & 7). Valid generic link. Acceptable. |
+> |
 
 **Comment:**
 
@@ -925,18 +852,18 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Draft**
 
-**Where:** `docs/relationships/index.md`, near line 52
-**Where:** `docs/relationships/with-verdicts.md`, near line 65
+**Where:** `docs/relationships/with-verdicts.md`, near line 77
+**Where:** `docs/relationships/index.md`, near line 64
 
 **Search for this exact text** (it appears exactly once in each file):
 
 ```text
-| Physical I/O(Del. 2) | I/O entity
+See note above for Trade Studies (Del. 4 & 7). Valid generic link.
 ```
 
-**Change:** Add a short explanation of the Physical I/O rows. Do it in both files. New wording, so Munzir reviews.
+**Change:** Replace this explanation cell with a short, self-contained explanation of why a Risk is linked to the Component Asset. Both files.
 
-**Why this is the right spot:** Anchor found in both relationship tables.
+New wording: Munzir reviews before merge.
 
 - [ ] applied
 
@@ -945,13 +872,13 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzy-qwus`
 
 - **Munzir Zafar**, 2026-02-06
-- **File:** `stages/1-requirements/d2-context-diagram.md`
+- **File:** `docs/index.md` (near line 27) and `docs/relationships/index.md` (near line 7) and `docs/relationships/stage1-checklist-patch.md` (near line 35) and `docs/relationships/with-verdicts.md` (near line 15) and `docs/stages/2-system-concept/d3-system-requirements.md` (near line 186) and `docs/stages/2-system-concept/index.md` (near line 18) and `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 206) and `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 273) and `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 103) and `docs/stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md` (near line 170) and `docs/stages/1-requirements/index.md` (near line 18) and `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 287) and `docs/stages/3-stage-synthesis/d9-level-1-and-level-2-planning.md` (near line 23) and `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 101) and `docs/stages/3-stage-synthesis/stage-overview.md` (near line 193) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 106) and `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 94) and `docs/stages/3-stage-synthesis/d6-verification-requirements.md` (near line 111) and `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 143) and `docs/stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md` (near line 165)
 - **Section:** Guidelines
 - **Blocks:** Deliverable templates (T92)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> For “As-is Architecture”, fill in the following attributes: 1. Number: “OCD.1” 2. Name: “Context Diagram for As-is Architecture” 3. Description: {*provide a description}
+> Traceability
 
 **Comment:**
 
@@ -966,13 +893,14 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzy-qwug`
 
 - **Munzir Zafar**, 2026-02-06
-- **File:** `stages/1-requirements/d2-context-diagram.md`
+- **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 564) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** Guidelines
 - **Blocks:** Deliverable templates (T92)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Create an asset for the system, name it, number it as “SYS.1” and add a description. 6. Create external assets, name them, and number them as “EXT.n”. Mark external assets by selecting \[image\]on the top-bar. 7. **Connect external systems to the original system** 1. Drag the green circle on the selected Asset to another Asset and the dialog in Figure 4.2 will appear. 2. Define Input/Output, Conduit, Actions, Directionality, and Origin using the pop-up displayed in Figure 4.2. Directions and shapes for the conduits can be changed by selecting the line and using the “Line Options” button at the top. Fill as many fields as possible for each of the entities.
+> **
+> # **
 
 **Comment:**
 
@@ -989,13 +917,13 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzy-qwuM`
 
 - **Munzir Zafar**, 2026-02-06
-- **File:** `stages/1-requirements/d2-context-diagram.md`
+- **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 334)
 - **Section:** Guidelines
 - **Blocks:** Deliverable templates (T92)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Define Input/Output, Conduit, Actions, Directionality, and Origin using the pop-up displayed in Figure 4.2.
+> Go to the “Documents” view and create a “Notes Document”. Name it “Extracts from {name of the artifact in step a}”. Number it “EX.n”, where n is an integer.  Keep the template as “Blank Template”.
 
 **Comment:**
 
@@ -1016,11 +944,11 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB6wHzT2I`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md`
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 57) and `docs/stages/3-stage-synthesis/d9-level-1-and-level-2-planning.md` (near line 73) and `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 43) and `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 117) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 33) and `docs/stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md` (near line 29) and `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 25) and `docs/stages/3-stage-synthesis/d6-verification-requirements.md` (near line 33) and `docs/stages/3-stage-synthesis/d2-physical-i-o-and-asset-diagram.md` (near line 67) and `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 66)
 - **Section:** 3.
 - **Blocks:** Deliverable templates (T92)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Step-by-Step Instructions
 
@@ -1039,10 +967,10 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB57gYWJ0`
 
 - **Sadaf Shaikh**, 2026-05-08
-- **File:** `stages/1-requirements/d3-stakeholder-requirements-document.md`
+- **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 31)
 - **Section:** Why this deliverable is important
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Decompose Statements
 
@@ -1059,10 +987,10 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB57gYWJ8`
 
 - **Sadaf Shaikh**, 2026-05-08
-- **File:** `stages/3-stage-synthesis/d1-low-level-action-diagram.md`
+- **File:** `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 39)
 - **Section:** 3b.
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Build the Decomposition Diagram
 
@@ -1079,10 +1007,10 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB5eL9tNY`
 
 - **Sadaf Shaikh**, 2026-05-08
-- **File:** `stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md`
+- **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 114)
 - **Section:** 3. Step-by-Step Instructions
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Update the existing Measure entities from Deliverable 4 with the actual datasheet performance values of the selected component. Do not create new Measure entities — update the threshold and objective values in the existing ones to reflect what the selected component actually delivers.
 
@@ -1094,7 +1022,7 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Munzir decides**
 
-**Why:** Location is certain (Deliverable 7, step 6 about Measures), but Sadaf's reply marks the change "future iteration". Defer or do now?
+**Why:** Sadaf's reply marks the change "future iteration". Defer or do now?
 
 - [ ] applied
 
@@ -1103,11 +1031,10 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzUWr0Tw`
 
 - **Sadaf Shaikh**, 2026-02-03
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 72) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** 3. Stakeholder Requirements Document
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
 > Issue entity
 
@@ -1117,20 +1044,20 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Munzir decides**
 
-**Why:** Probably Stage 1 Deliverable 3, "Create Issue entity...". But which earlier exercise to mention is yours to say.
+**Why:** Which earlier exercise to mention is yours to say.
 
 - [ ] applied
 
 ### `AAABzUWr0R4`
 
 - **Sadaf Shaikh**, 2026-02-03
-- **File:** `stages/1-requirements/d3-stakeholder-requirements-document.md`
+- **File:** not found in the repo by its anchor text
 - **Section:** 3. Stakeholder Requirements Document
 - **Blocks:** Freeze (T15), helpful not blocking
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Trade Study document as Artifact
+> “enabled by”.
 
 **Comment:**
 
@@ -1145,12 +1072,12 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzurITFc`
 
 - **Sadaf Shaikh**, 2026-02-04
-- **File:** `stages/1-requirements/d2-context-diagram.md`
+- **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 157) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** Why this deliverable is important
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Note that the actions that were created in Figure 4.3 include a number of scenarios in Figure 4.4. A few adjustments were made from Figure 4.3 to Figure 4.5: - M.2, M.10, and M.12 were put as children of Scenario 3. - M.8 “Receive Habitat” was only part of Scenario 4, so it was made the child of that scenario. - M.13 “Prepare Personnel for Return to Earth” was renamed to S.6 “Rotate Personnel Out.” So, with a little bit of work, we were able to reuse all the work that was done from developing the context diagram.
+> Step 4: Identify Risks
 
 **Comment:**
 
@@ -1165,12 +1092,12 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABvWHEtbI`
 
 - **Ailiya Fatima**, 2026-02-09
-- **File:** `stages/1-requirements/d1-list-of-stakeholders.md`
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 306)
 - **Section:** (none)
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Student Checklist – User Needs Document
+> new and important functional requirements.
 
 **Comment:**
 
@@ -1185,35 +1112,32 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABvWHEtbE`
 
 - **Ailiya Fatima**, 2026-02-09
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 507)
 - **Section:** 4.
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Traceability
+> Add statement entity
 
 **Comment:**
 
 > why not use import analyzer here
 
-**Status: Find in Google Doc**
+**Status: Munzir decides**
 
-**Likely spot:** Anchored on "Traceability", section 4. Too short to place.
-
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Why:** A question: use Innoslate's Import Analyzer instead of adding statements by hand?
 
 - [ ] applied
 
 ### `AAAB0D17ImY`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `stages/1-requirements/d1-list-of-stakeholders.md`
+- **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 182) and `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 200) and `docs/stages/1-requirements/d4-high-level-action-diagrams.md` (near line 84) and `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 99) and `docs/stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md` (near line 172) and `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 46)
 - **Section:** Uploading Raw Evidence in Innoslate
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Go to the “Documents” view and create a “Notes Document”. Name it “Extracts from {name of the artifact in step a}”. Number it “EX.n”, where n is an integer. Keep the template as “Blank Template”.
+> Reporting instructions
 
 **Comment:**
 
@@ -1228,58 +1152,52 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAAB0D17ImM`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `not located — find by heading below`
+- **File:** `docs/relationships/stage1-checklist-patch.md` (near line 11) and `docs/stages/2-system-concept/d3-system-requirements.md` (near line 202) and `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 224) and `docs/stages/1-requirements/d4-high-level-action-diagrams.md` (near line 94) and `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 203) and `docs/stages/1-requirements/d2-context-diagram.md` (near line 248) and `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 117)
 - **Section:** Uploading Raw Evidence in Innoslate
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Keep
+> Student Checklist
 
 **Comment:**
 
 > needs to be reviewed
 
-**Status: Find in Google Doc**
+**Status: Munzir decides**
 
-**Likely spot:** Anchored on "Keep", in "Uploading Raw Evidence". Too short to place.
-
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Why:** "needs to be reviewed": review the scenarios Student Checklist.
 
 - [ ] applied
 
 ### `AAAB0D17ImI`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `not located — find by heading below`
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 398) (placed by the surrounding text; the anchor itself is too short)
 - **Section:** Uploading Raw Evidence in Innoslate
-- *short anchor — locate by heading*
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> “”
+> Example
 
 **Comment:**
 
 > should be added in the appendix
 
-**Status: Find in Google Doc**
+**Status: Munzir decides**
 
-**Likely spot:** Empty anchor, in "Uploading Raw Evidence".
-
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+**Why:** Move the Moonbase example to an appendix?
 
 - [ ] applied
 
 ### `AAAB0D17Il8`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `stages/1-requirements/d1-list-of-stakeholders.md`
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 96)
 - **Section:** Uploading Raw Evidence in Innoslate
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> 5. If step iv fails, as a last resort, in the description of the artifact, enter the path of the audio/video file inside the official home folder (for example, data/video-recordings/Factory\_Visit\_1st\_Jan\_2026.mp4). 2.
+> Define Input/Output, Conduit, Actions, Directionality, and Origin using the pop-up displayed in Figure 4.2.
 
 **Comment:**
 
@@ -1294,12 +1212,15 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 ### `AAABzXMVlDs`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `stages/1-requirements/d1-list-of-stakeholders.md`
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 416)
 - **Section:** Uploading Raw Evidence in Innoslate
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> For reference, go over “Applying the Process” section in chapter 3 to understand how the authors extracted the statements from a book.
+> Note that the actions that were created in Figure 4.3 include a number of scenarios in Figure 4.4.  A few adjustments were made from Figure 4.3 to Figure 4.5:
+>   - M.2, M.10, and M.12 were put as children of Scenario 3.
+>   - M.8 “Receive Habitat” was only part of Scenario 4, so it was made the child of that scenario.
+>   - M.13 “Prepare Personnel for Return to Earth” was renamed to S.6 “Rotate Person …
 
 **Comment:**
 
@@ -1307,29 +1228,30 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 **Status: Ready**
 
-**Where:** `docs/stages/1-requirements/d1-list-of-stakeholders.md`, near line 397
+**Where:** `docs/stages/1-requirements/d2-context-diagram.md`, near line 416
 
 **Search for this exact text** (it appears exactly once):
 
 ```text
-4.  Analyze reference documents to extract important information. For reference, go over “Applying the Process” section in chapter 4 to understand how the authors extracted the statements from a book. Create new Statement entities to capture it in the Notes Document.
+Note that the actions that were created in Figure 4.3 include a number of scenarios in Figure 4.4. A few adjustments were made from Figure 4.3 to Figure 4.5:
 ```
 
-**Change:** Add the page reference: page 87 of the Real MBSE book. Do not change the chapter number.
-
-**Why this is the right spot:** Anchor matches except the chapter number: the source said chapter 3, the page now says chapter 4. Change only what the comment asks.
+**Change:** Add a reference at the end of this note: see page 87 of the Real MBSE book.
 
 - [ ] applied
 
 ### `AAAB0EbNaqM`
 
 - **Sadaf Shaikh**, 2026-02-11
-- **File:** `stages/1-requirements/d1-list-of-stakeholders.md`
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 72)
 - **Section:** Uploading Raw Evidence in Innoslate
 
-**Anchored on:**
+**Anchored on** (from the Google Doc):
 
-> Enter a meaningful name (e.g., Factory Visit – Maintenance Supervisor – 12 Jan) which includes date, stakeholder role, and context of data collection.
+> For “As-is Architecture”, fill in the following attributes:
+>     1.  Number: “OCD.1”
+>     2.  Name: “Context Diagram for As-is Architecture”
+>     3.  Description: {*provide a description}
 
 **Comment:**
 
@@ -1339,10 +1261,30 @@ Open the original Google Doc, click this comment, and note the highlighted text.
 
 > **Sadaf Shaikh replied:** list of scenarios for to-be only
 
-**Status: Find in Google Doc**
+**Status: Munzir decides**
 
-**Likely spot:** The listed anchor (a naming example) is unrelated to the question asked. February anchors drift.
+**Why:** Is the as-is architecture captured as a context diagram? Sadaf's last reply: list of scenarios for to-be only. Decide and state it.
 
-Open the original Google Doc, click this comment, and note the highlighted text. Then Munzir updates this entry to Ready.
+- [ ] applied
+
+## Added 29 September 2026
+
+### `AAACF1KD4Kk`
+
+- **Sadaf Shaikh**, 2026-08-24
+- **File:** `docs/relationships/with-verdicts.md` (the relationship guidelines)
+- **Section:** top of the relationship guidelines
+
+**Anchored on** (from the Google Doc):
+
+> LML Relationship Correction & Traceability Matrix Guidelines**
+
+**Comment:**
+
+> This is the authoritative version and the copy tab was just to handle the spring 2026 batch by removing any corrections in the table.
+
+**Status: Munzir decides**
+
+**Why:** Sadaf says the relationship guidelines tab (with verdicts) is authoritative, and the copy tab only existed to give the Spring 2026 batch a table without corrections. Decide whether to retire `index.md` and keep only `with-verdicts.md`.
 
 - [ ] applied
