@@ -16,17 +16,20 @@ open comments on them, so both are being edited. One of them goes once everythin
 Spring 2026  |  Habib University
 ## **1. Purpose and Scope**
 This document provides two sets of guidelines to help you review and improve your Innoslate model.
+
   - Section 2 cross-references every LML relationship name explicitly instructed in the ASEPD deliverables document against LML Specification 2.0, identifies errors and non-standard usage, and gives the correct verb to use instead.
   - Section 3 defines which traceability matrices to generate, what entity pairs each matrix covers, and the minimum population thresholds required for a model to be considered reviewable.
 These guidelines apply to all three gate stages: Requirements (Gate 2), System Concept (Gate 3), and Initial System Architecture (Gate 4).
 **Note: **All relationship names in LML are bidirectional. The table in Section 2 always states the relationship from the perspective of the first entity in the pair (the source). The inverse is implied.
 ## **2. LML Relationship Review by Deliverable**
 The table below lists every entity pair for which the ASEPD deliverables document instructs a specific relationship name. Each entry is evaluated against LML Specification 2.0 and assigned one of three verdicts:
+
 |  |  |  |  |  |  |
 | :- | :- | :- | :- | :- | :- |
 | **✅ Correct** | Relationship is valid in base LML 2.0 for this entity pair. | **❌ Incorrect** | Relationship does not exist or direction is wrong in LML 2.0. | **⚠️ Caution** | Relationship exists only in the SysML extension (Appendix A) or semantics are weak. |
 
 **Stage 1— Requirements Stage**
+
 |  |  |  |  |  |  |  |
 | :- | :- | :- | :- | :- | :- | :- |
 | **Deliverable** | **Entity Pair (Source → Target)** | **Instructed Verb** | **Verdict** | **Correct Entity Pair** | **Correct LML 1.4 Verb** | **Explanation / Action Required** |
@@ -43,6 +46,7 @@ The table below lists every entity pair for which the ASEPD deliverables documen
 | Verif. Req.(Del. 5) | Verif. Requirement → Test Case | **"verified by"** | **✅ Correct** |  |  | LML §3.4.11.4.2 explicitly defines verifies/verified by between Verification Requirement and Test Case. This is correct. Ensure the relationship direction is verified by placed on the Verification Requirement pointing to the Test Case. |
 
 **Stage 2 — System Concept Stage**
+
 |  |  |  |  |  |  |
 | :- | :- | :- | :- | :- | :- |
 | **Deliverable** | **Entity Pair (Source → Target)** | **Instructed Verb** | **Verdict** | **Correct LML 2.0 Verb** | **Explanation / Action Required** |
@@ -52,6 +56,7 @@ The table below lists every entity pair for which the ASEPD deliverables documen
 | Verif. Req. forSystem Req. | Verif. Requirement → System Requirement | **"verifies"** | **✅ Correct** |  | LML §3.4.11.4.2 defines verifies/verified by. This is correct and consistent with the Gate 2 approach. Ensure this relationship is created for every system requirement, not just selected ones. |
 
 **Stage 3 — Initial System Architecture Stage**
+
 |  |  |  |  |  |  |
 | :- | :- | :- | :- | :- | :- |
 | **Deliverable** | **Entity Pair (Source → Target)** | **Instructed Verb** | **Verdict** | **Correct LML 2.0 Verb** | **Explanation / Action Required** |
@@ -75,11 +80,13 @@ The table below lists every entity pair for which the ASEPD deliverables documen
 ## **3. Traceability Matrix Guidelines**
 ## **3.1  Why Traceability Matrices Matter for Review**
 A traceability matrix is a two-dimensional table that confirms every entity in one class is connected to at least one entity in another class through a specific LML relationship. Matrices serve three purposes:
+
   - Completeness check: every row and every column must have at least one cell populated. Sparse rows or columns signal missing relationships, not missing content.
   - Correctness check: the relationship verb used to generate the matrix must match the LML 2.0 standard — this is why Section 2 matters before you generate matrices.
   - Coverage check: the population density of the matrix indicates whether the engineering work is superficial (one link per row) or thorough (multiple supporting links).
 ## **3.2  Required Matrices by Gate**
 The following table defines the matrices that must be generated, and the LML relationship that drives each one..
+
 |  |  |  |  |  |  |
 | :- | :- | :- | :- | :- | :- |
 | **Matrix Name** | **Row Entity (source)** | **Column Entity (target)** | **LML Relationship** | **Review Purpose** | **How to Create** |
@@ -103,6 +110,7 @@ The following table defines the matrices that must be generated, and the LML rel
 
 ## **3.3  Population Thresholds and What They Signal**
 The minimum sizes in Section 3.2 are floors, not targets. The table below explains what different population densities indicate to a reviewer and what action should be taken in each case.
+
 |  |  |  |  |  |
 | :- | :- | :- | :- | :- |
 | **Population Level** | **What It Looks Like** | **Signal to Reviewer** | **Likely Root Cause** | **Corrective Action** |
@@ -113,6 +121,7 @@ The minimum sizes in Section 3.2 are floors, not targets. The table below explai
 
 ## **3.4  How to Generate a Matrix in Innoslate**
 To create a Traceability Matrix, simply follow these steps:
+
 1.  Navigate to Database View. 
 2.  Create an Artifact entity.
 3.  Assign the 'Matrix' label on the left sidebar.
@@ -125,6 +134,7 @@ To create a Traceability Matrix, simply follow these steps:
 10. The Traceability Matrix View will then be completed to create relationships among the entities displayed in the matrix. Select 'Save' on the toolbar.
 ## **3.5  How to Treat Floating Requirements Identified through Traceability Matrix**
 During the process of generating Traceability matrices as instructed in Section 3.2, you may come across floating requirements, i.e. requirements that are not linked to a parent. For these requirements, follow the steps below:
+
 1.  Go to Schema Editor and add a label “Orphan” to the Requirement class.
 2.  Open any traceability matrix that contains floating requirements and using the wrench icon on the top-right, select Traceability Assist.
 3.  Review the links created by the Assist.
@@ -134,6 +144,7 @@ During the process of generating Traceability matrices as instructed in Section 
 7.  If parent is genuinely missing, create an issue and set the relationship Issue “caused by” Requirement.
 ## **4. End-to-End Traceability Chain Reference**
 The diagram below shows the complete LML traceability chain your model should reflect by the end of Gate 4. Each arrow represents a relationship. Where Section 2 has identified a correction, the corrected verb is shown.
+
 |  |
 | :- |
 | **EVIDENCE LAYER**    **══════════════**    **Raw Artifact (ART.n)**    **    ↑ sourced by**    **Notes Document Statement (EX.n.n)**    **    ↑ traced to**    **USER NEEDS LAYER**    **════════════════**    **User Need Statement (UN.1.n)**    **    ↑ traced to**    **STAKEHOLDER REQUIREMENT LAYER**    **══════════════════════════════**    **Stakeholder Requirement (SR.1.n) ← verifies ── Verification Requirement (VR.1.n)**    **    ↑ traced to                                                                                     ↑ verified by**    **                                                                                                     Test Case**    **SYSTEM REQUIREMENT LAYER**    **═════════════════════════**    **System Requirement (SysReq.n) ←  verifies ── Verification Requirement (VR.2.n)**    **    ↑ traced to    **    **    ↓ sourced by  →  Trade Study (Artifact) ← enabled by ── Decision**    **    ↓ enabled by  →  Decision                                    ↓ resolves**    **                                                                                   Risk**    **SUBSYSTEM REQUIREMENT LAYER**    **════════════════════════════**    **Subsystem Requirement (SubReq.n) ← verifies ── Verification Requirement (VR.3.n)**    **    ↑ traced to**    **    ↓ specified by → Measure (threshold)**    **    ↓ sourced by   → Trade Study (Artifact)**    **ACTION / FUNCTIONAL LAYER**    **═════════════════════════**    **Action (leaf-level) ── traced to → Subsystem Functional Requirement**    **    ↓ decomposes  parent Action**    **    ↓ performed by Component Asset**    **COMPONENT / PHYSICAL LAYER**    **═══════════════════════════**    **Subsystem Asset**    **    ↓ decomposed by**    **Component Asset (selected via Trade Study)**    **    ↓ performs**    **Action (leaf-level)**    **INTERFACE LAYER (cross-cutting)**    **═══════════════════════════════**    **Interface Requirement ── traced to → Conduit**    **I/O Entity ── transferred by → Conduit**    **RISK LAYER (cross-cutting)**    **═══════════════════════════**    **Risk ── caused by → Requirement (SR / SysReq / SubReq)**    **Risk ── caused by → Component Asset**    **Risk ── related to → Trade Study (Artifact)**    **Decision ── resolves → Risk** |
