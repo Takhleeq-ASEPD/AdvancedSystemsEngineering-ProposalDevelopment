@@ -15,6 +15,7 @@ A consistency pass at the end catches the rest.
 ## Status summary (29 September 2026)
 
 Every comment carries a **Status** block. Use it, not the "File" line, to find where to work.
+Click **Go to spot** to open the rendered page scrolled to the exact sentence, highlighted.
 
 | Status | Meaning | Count |
 |---|---|---|
@@ -38,6 +39,7 @@ Every comment carries a **Status** block. Use it, not the "File" line, to find w
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/with-verdicts.md` (near line 29)
+- **Go to spot:** [open in page](../relationships/with-verdicts.md#:~:text=Relationship%20exists%20only%20in%20the)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Relationship freeze (T15), all filters (T17,T18)
 
@@ -61,6 +63,7 @@ Every comment carries a **Status** block. Use it, not the "File" line, to find w
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 110)
+- **Go to spot:** [open in page](../stages/2-system-concept/d3-system-requirements.md#:~:text=Create%20relationship%20%E2%80%9Cperforms%E2%80%9D%20%E2%86%92%20Asset)
 - **Section:** 2.
 - **Blocks:** Freeze (T15)
 
@@ -82,6 +85,7 @@ Fixed in the repo on 27 August (commit 3465079).
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 108)
+- **Go to spot:** [open in page](../stages/2-system-concept/d3-system-requirements.md#:~:text=Create%20relationship%20%E2%80%9Csourced%20by%E2%80%9D%20%E2%86%92)
 - **Section:** 3. Create Required Relationships in Innoslate
 - **Blocks:** Freeze (T15)
 
@@ -105,6 +109,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 131)
+- **Go to spot:** [open in page](../stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md#:~:text=Trace%20Verification%20Requirements%20to%20Test)
 - **Section:** (none)
 - **Blocks:** Freeze (T15), V&V design
 
@@ -138,6 +143,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 345) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md#:~:text=5c.%20Display%20Risks%20in%20a)
 - **Section:** 2c. Create Pugh Matrix
 - **Blocks:** Freeze (T15)
 
@@ -158,7 +164,8 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 ### `AAAB4xlgcPg`
 
 - **Sadaf Shaikh**, 2026-05-15
-- **File:** not found in the repo by its anchor text
+- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 339)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md#:~:text=Link%20the%20Risk%20entity%20to)
 - **Section:** 3d. Add an Engineering Margin
 - **Blocks:** Freeze (T15)
 
@@ -180,6 +187,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 156)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md#:~:text=For%20each%20risk%2C%20create%20a)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Freeze (T15)
 
@@ -200,7 +208,8 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 ### `AAAB4xFXrqw`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** not found in the repo by its anchor text (comment no longer in the Google Doc)
+- **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 74), where the unapplied change would go
+- **Go to spot:** [open in page](../stages/1-requirements/d3-stakeholder-requirements-document.md#:~:text=Resolve%20issues%2Frisks%20through%20trade%20studies)
 - **Section:** Why this deliverable is important
 - **Blocks:** Freeze (T15), trade study guidance
 
@@ -222,6 +231,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/1-requirements/d4-high-level-action-diagrams.md` (near line 57)
+- **Go to spot:** [open in page](../stages/1-requirements/d4-high-level-action-diagrams.md#:~:text=Create%20relationship%20%E2%80%9Ctraced%20from%E2%80%9D%20for)
 - **Section:** Why this deliverable is important
 - **Blocks:** Freeze (T15)
 
@@ -243,6 +253,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md` (near line 117)
+- **Go to spot:** [open in page](../stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md#:~:text=Trace%20to%20test%20cases%20%28optional%29)
 - **Section:** Why this deliverable is important
 - **Blocks:** Freeze (T15), V&V design
 
@@ -274,6 +285,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 104)
+- **Go to spot:** [open in page](../stages/2-system-concept/d3-system-requirements.md#:~:text=Create%20relationship%20%E2%80%9Ctraced%20from%E2%80%9D%20%E2%86%92)
 - **Section:** 3. Create Required Relationships in Innoslate
 - **Blocks:** Freeze (T15)
 
@@ -297,6 +309,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 259)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md#:~:text=In%20the%20Artifact%27s%20relationships%20panel%2C)
 - **Section:** 4a. Create the Trade Study Artifact
 - **Blocks:** Freeze (T15)
 
@@ -319,6 +332,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 158)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md#:~:text=For%20any%20risk%20rated%20Medium)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Freeze (T15), risk guidance
 
@@ -351,7 +365,8 @@ New wording: Munzir reviews before merge.
 ### `AAAB4xlgcPo`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 259) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 134)
+- **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 134) (placed using the surrounding text in the Google Doc)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md#:~:text=In%20the%20Artifact%27s%20relationships%20panel%2C)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Freeze (T15)
 
@@ -373,6 +388,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 29) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../relationships/index.md#:~:text=satisfies%20does%20not%20exist%20in)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15), action diagram guidance
 
@@ -394,6 +410,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 27) and `docs/relationships/with-verdicts.md` (near line 40)
+- **Go to spot:** [open in index](../relationships/index.md#:~:text=Replace%20relationship%20between%20trade%20study) · [open in with-verdicts](../relationships/with-verdicts.md#:~:text=Replace%20relationship%20between%20trade%20study)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15), guidelines (T45)
 
@@ -415,6 +432,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 52) and `docs/relationships/with-verdicts.md` (near line 65)
+- **Go to spot:** [open in with-verdicts](../relationships/with-verdicts.md#:~:text=Asset%20%E2%86%92%20Asset%20%28hierarchy%29) · [open in index](../relationships/index.md#:~:text=Asset%20%E2%86%92%20Asset%20%28hierarchy%29)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15), interface guidance
 
@@ -447,6 +465,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 50) and `docs/relationships/with-verdicts.md` (near line 63)
+- **Go to spot:** [open in with-verdicts](../relationships/with-verdicts.md#:~:text=Action%20%E2%86%92%20Action%20%28decomposition%29) · [open in index](../relationships/index.md#:~:text=Action%20%E2%86%92%20Action%20%28decomposition%29)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15)
 
@@ -479,6 +498,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 62) and `docs/relationships/with-verdicts.md` (near line 75)
+- **Go to spot:** [open in index](../relationships/index.md#:~:text=Standard%20asset%20hierarchy%20decomposition%20%28%C2%A73.4.0.2.2%29.) · [open in with-verdicts](../relationships/with-verdicts.md#:~:text=Standard%20asset%20hierarchy%20decomposition%20%28%C2%A73.4.0.2.2%29.)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Freeze (T15)
 
@@ -502,6 +522,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 132) and `docs/relationships/with-verdicts.md` (near line 145)
+- **Go to spot:** [open in index](../relationships/index.md#:~:text=4.%20End%2Dto%2DEnd%20Traceability%20Chain%20Reference) · [open in with-verdicts](../relationships/with-verdicts.md#:~:text=4.%20End%2Dto%2DEnd%20Traceability%20Chain%20Reference)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines revision (T45)
 
@@ -523,6 +544,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 58) and `docs/relationships/with-verdicts.md` (near line 71)
+- **Go to spot:** [open in with-verdicts](../relationships/with-verdicts.md#:~:text=Measure%20%E2%86%92%20Requirement) · [open in index](../relationships/index.md#:~:text=Measure%20%E2%86%92%20Requirement)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines revision (T45)
 
@@ -555,6 +577,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 25) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../relationships/index.md#:~:text=LML%20%C2%A73.4.11.3%20and%20Fig.%203%2D1)
 - **Section:** 4.
 - **Blocks:** Guidelines revision (T45), compliance queries
 
@@ -578,6 +601,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-07
 - **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 103)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md#:~:text=In%20Innoslate%2C%20create%20an%20Asset)
 - **Section:** 3. Step-by-Step Instructions
 - **Blocks:** Template project (T19) — EARLIER than the freeze
 
@@ -609,6 +633,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md` (near line 220)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md#:~:text=Create%20a%20new%20Artifact%20entity)
 - **Section:** 3. Step-by-step Instructions
 - **Blocks:** Template project (T19)
 
@@ -642,6 +667,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 243)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d3-functional-requirements-document-frd.md#:~:text=Step%209%20%E2%80%94%20Establish%20links)
 - **Section:** (none)
 - **Blocks:** Traceability standups (T24), quality scan (T25)
 
@@ -677,6 +703,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-06
 - **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 338) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../stages/1-requirements/d1-list-of-stakeholders.md#:~:text=Context%20%28meeting%2C%20site%20visit%2C%20email%2C)
 - **Section:** (none)
 - **Blocks:** Guidelines (T45)
 
@@ -698,6 +725,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-06
 - **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 326)
+- **Go to spot:** [open in page](../stages/1-requirements/d1-list-of-stakeholders.md#:~:text=Enter%20a%20meaningful%20name%20%28e.g.%2C%20Factory%20Visit%20%E2%80%93%20Maintenance%20Supervisor%20%E2%80%93%2012)
 - **Section:** 4.
 - **Blocks:** Guidelines (T45)
 
@@ -718,7 +746,8 @@ New wording: Munzir reviews before merge.
 ### `AAAB57gYWUk`
 
 - **Sadaf Shaikh**, 2026-05-08
-- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 57) and `docs/stages/3-stage-synthesis/d9-level-1-and-level-2-planning.md` (near line 73) and `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 43) and `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 117) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 33) and `docs/stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md` (near line 29) and `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 25) and `docs/stages/3-stage-synthesis/d6-verification-requirements.md` (near line 33) and `docs/stages/3-stage-synthesis/d2-physical-i-o-and-asset-diagram.md` (near line 67) and `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 66)
+- **File:** `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 66) (placed using the surrounding text in the Google Doc)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d5-system-requirements-document-srd.md#:~:text=4.%20Step%2Dby%2DStep%20Instructions)
 - **Section:** 4.
 - **Blocks:** Guidelines (T45)
 
@@ -740,6 +769,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 73)
+- **Go to spot:** [open in page](../stages/2-system-concept/d3-system-requirements.md#:~:text=2.%20Derive%20Requirements%20from%20Architecture)
 - **Section:** 3
 - **Blocks:** Guidelines (T45)
 
@@ -773,6 +803,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-15
 - **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 279)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md#:~:text=For%20each%20subsystem%20requirement%20in)
 - **Section:** 1.
 - **Blocks:** Guidelines (T45)
 
@@ -808,6 +839,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 62) and `docs/relationships/with-verdicts.md` (near line 75)
+- **Go to spot:** [open in with-verdicts](../relationships/with-verdicts.md#:~:text=Risk%20%E2%86%92%20Component%20Asset) · [open in index](../relationships/index.md#:~:text=Risk%20%E2%86%92%20Component%20Asset)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines (T45)
 
@@ -838,6 +870,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-21
 - **File:** `docs/relationships/index.md` (near line 64) and `docs/relationships/with-verdicts.md` (near line 77)
+- **Go to spot:** [open in with-verdicts](../relationships/with-verdicts.md#:~:text=See%20note%20above%20for%20Trade) · [open in index](../relationships/index.md#:~:text=See%20note%20above%20for%20Trade)
 - **Section:** 2. LML Relationship Review by Deliverable
 - **Blocks:** Guidelines (T45)
 
@@ -872,7 +905,8 @@ New wording: Munzir reviews before merge.
 ### `AAABzy-qwus`
 
 - **Munzir Zafar**, 2026-02-06
-- **File:** `docs/index.md` (near line 27) and `docs/relationships/index.md` (near line 7) and `docs/relationships/stage1-checklist-patch.md` (near line 35) and `docs/relationships/with-verdicts.md` (near line 15) and `docs/stages/2-system-concept/d3-system-requirements.md` (near line 186) and `docs/stages/2-system-concept/index.md` (near line 18) and `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 206) and `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 273) and `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 103) and `docs/stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md` (near line 170) and `docs/stages/1-requirements/index.md` (near line 18) and `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 287) and `docs/stages/3-stage-synthesis/d9-level-1-and-level-2-planning.md` (near line 23) and `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 101) and `docs/stages/3-stage-synthesis/stage-overview.md` (near line 193) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 106) and `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 94) and `docs/stages/3-stage-synthesis/d6-verification-requirements.md` (near line 111) and `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 143) and `docs/stages/4-later-deliverables/d1-preliminary-design-review-pdr-document.md` (near line 165)
+- **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 546) (placed using the surrounding text in the Google Doc)
+- **Go to spot:** [open in page](../stages/1-requirements/d1-list-of-stakeholders.md#:~:text=4.%20Traceability)
 - **Section:** Guidelines
 - **Blocks:** Deliverable templates (T92)
 
@@ -894,6 +928,7 @@ New wording: Munzir reviews before merge.
 
 - **Munzir Zafar**, 2026-02-06
 - **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 564) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../stages/1-requirements/d1-list-of-stakeholders.md#:~:text=%E2%98%90%20All%20statements%20inside%20the)
 - **Section:** Guidelines
 - **Blocks:** Deliverable templates (T92)
 
@@ -918,6 +953,7 @@ New wording: Munzir reviews before merge.
 
 - **Munzir Zafar**, 2026-02-06
 - **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 334)
+- **Go to spot:** [open in page](../stages/1-requirements/d1-list-of-stakeholders.md#:~:text=Go%20to%20the%20%E2%80%9CDocuments%E2%80%9D%20view%20and%20create%20a%20%E2%80%9CNotes%20Document%E2%80%9D.%20Name)
 - **Section:** Guidelines
 - **Blocks:** Deliverable templates (T92)
 
@@ -944,7 +980,8 @@ New wording: Munzir reviews before merge.
 ### `AAAB6wHzT2I`
 
 - **Sadaf Shaikh**, 2026-05-21
-- **File:** `docs/stages/3-stage-synthesis/d4-trade-studies-and-associated-risks.md` (near line 57) and `docs/stages/3-stage-synthesis/d9-level-1-and-level-2-planning.md` (near line 73) and `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 43) and `docs/stages/3-stage-synthesis/d3-functional-requirements-document-frd.md` (near line 117) and `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 33) and `docs/stages/3-stage-synthesis/d8-design-analysis-report-and-initial-bill-of-materials-bom.md` (near line 29) and `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 25) and `docs/stages/3-stage-synthesis/d6-verification-requirements.md` (near line 33) and `docs/stages/3-stage-synthesis/d2-physical-i-o-and-asset-diagram.md` (near line 67) and `docs/stages/3-stage-synthesis/d5-system-requirements-document-srd.md` (near line 66)
+- **File:** `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 43) (placed using the surrounding text in the Google Doc)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d0-subsystem-identification.md#:~:text=3.%20Step%2Dby%2DStep%20Instructions)
 - **Section:** 3.
 - **Blocks:** Deliverable templates (T92)
 
@@ -968,6 +1005,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-08
 - **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 31)
+- **Go to spot:** [open in page](../stages/1-requirements/d3-stakeholder-requirements-document.md#:~:text=Decompose%20Statements)
 - **Section:** Why this deliverable is important
 
 **Anchored on** (from the Google Doc):
@@ -988,6 +1026,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-08
 - **File:** `docs/stages/3-stage-synthesis/d1-low-level-action-diagram.md` (near line 39)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d1-low-level-action-diagram.md#:~:text=3b.%20Build%20the%20Decomposition%20Diagram)
 - **Section:** 3b.
 
 **Anchored on** (from the Google Doc):
@@ -1008,6 +1047,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-05-08
 - **File:** `docs/stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md` (near line 114)
+- **Go to spot:** [open in page](../stages/3-stage-synthesis/d7-trade-studies-and-associated-risks-component-selection.md#:~:text=Update%20the%20existing%20Measure%20entities)
 - **Section:** 3. Step-by-Step Instructions
 
 **Anchored on** (from the Google Doc):
@@ -1032,6 +1072,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-03
 - **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 72) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../stages/1-requirements/d3-stakeholder-requirements-document.md#:~:text=Create%20Issue%20entity%20and%20create)
 - **Section:** 3. Stakeholder Requirements Document
 
 **Anchored on** (from the Google Doc):
@@ -1073,6 +1114,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-04
 - **File:** `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 157) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../stages/1-requirements/d3-stakeholder-requirements-document.md#:~:text=%E2%80%A2%20DON%E2%80%99T%20include%20suggestions%20or)
 - **Section:** Why this deliverable is important
 
 **Anchored on** (from the Google Doc):
@@ -1093,6 +1135,7 @@ New wording: Munzir reviews before merge.
 
 - **Ailiya Fatima**, 2026-02-09
 - **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 306)
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=Prioritize%20use%20cases%2Fscenarios%20based%20on)
 - **Section:** (none)
 
 **Anchored on** (from the Google Doc):
@@ -1113,6 +1156,7 @@ New wording: Munzir reviews before merge.
 
 - **Ailiya Fatima**, 2026-02-09
 - **File:** `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 507)
+- **Go to spot:** [open in page](../stages/1-requirements/d1-list-of-stakeholders.md#:~:text=Add%20statement%20entity)
 - **Section:** 4.
 
 **Anchored on** (from the Google Doc):
@@ -1132,7 +1176,8 @@ New wording: Munzir reviews before merge.
 ### `AAAB0D17ImY`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `docs/stages/2-system-concept/d3-system-requirements.md` (near line 182) and `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 200) and `docs/stages/1-requirements/d4-high-level-action-diagrams.md` (near line 84) and `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 99) and `docs/stages/1-requirements/d5-verification-requirements-document-for-stakeholder-requirements.md` (near line 172) and `docs/stages/3-stage-synthesis/d0-subsystem-identification.md` (near line 46)
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 371) (placed using the surrounding text in the Google Doc). The Google Doc has an empty "Reporting instructions" heading here that the repo omits.
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=Created%20new%20Action%20Diagram%20%28ACT.1)
 - **Section:** Uploading Raw Evidence in Innoslate
 
 **Anchored on** (from the Google Doc):
@@ -1152,7 +1197,8 @@ New wording: Munzir reviews before merge.
 ### `AAAB0D17ImM`
 
 - **Sadaf Shaikh**, 2026-02-10
-- **File:** `docs/relationships/stage1-checklist-patch.md` (near line 11) and `docs/stages/2-system-concept/d3-system-requirements.md` (near line 202) and `docs/stages/2-system-concept/d4-verification-requirements-document-for-system-requirements.md` (near line 224) and `docs/stages/1-requirements/d4-high-level-action-diagrams.md` (near line 94) and `docs/stages/1-requirements/d1-list-of-stakeholders.md` (near line 203) and `docs/stages/1-requirements/d2-context-diagram.md` (near line 248) and `docs/stages/1-requirements/d3-stakeholder-requirements-document.md` (near line 117)
+- **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 371) (placed using the surrounding text in the Google Doc). The Google Doc's checklist here has different items from the repo's.
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=Created%20new%20Action%20Diagram%20%28ACT.1)
 - **Section:** Uploading Raw Evidence in Innoslate
 
 **Anchored on** (from the Google Doc):
@@ -1173,6 +1219,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-10
 - **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 398) (placed by the surrounding text; the anchor itself is too short)
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=As%20an%20example%2C%20below%20is)
 - **Section:** Uploading Raw Evidence in Innoslate
 
 **Anchored on** (from the Google Doc):
@@ -1193,6 +1240,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-10
 - **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 96)
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=Define%20Input%2FOutput%2C%20Conduit%2C%20Actions%2C%20Directionality%2C)
 - **Section:** Uploading Raw Evidence in Innoslate
 
 **Anchored on** (from the Google Doc):
@@ -1213,6 +1261,7 @@ New wording: Munzir reviews before merge.
 
 - **Sadaf Shaikh**, 2026-02-10
 - **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 416)
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=Note%20that%20the%20actions%20that)
 - **Section:** Uploading Raw Evidence in Innoslate
 
 **Anchored on** (from the Google Doc):
@@ -1244,6 +1293,7 @@ Note that the actions that were created in Figure 4.3 include a number of scenar
 
 - **Sadaf Shaikh**, 2026-02-11
 - **File:** `docs/stages/1-requirements/d2-context-diagram.md` (near line 72)
+- **Go to spot:** [open in page](../stages/1-requirements/d2-context-diagram.md#:~:text=For%20%E2%80%9CAs%2Dis%20Architecture%E2%80%9D%2C%20fill%20in)
 - **Section:** Uploading Raw Evidence in Innoslate
 
 **Anchored on** (from the Google Doc):
@@ -1272,7 +1322,8 @@ Note that the actions that were created in Figure 4.3 include a number of scenar
 ### `AAACF1KD4Kk`
 
 - **Sadaf Shaikh**, 2026-08-24
-- **File:** `docs/relationships/with-verdicts.md` (the relationship guidelines)
+- **File:** `docs/relationships/with-verdicts.md` (near line 15)
+- **Go to spot:** [open in page](../relationships/with-verdicts.md#:~:text=LML%20Relationship%20Correction%20%26%20Traceability)
 - **Section:** top of the relationship guidelines
 
 **Anchored on** (from the Google Doc):
