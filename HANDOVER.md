@@ -35,25 +35,33 @@ The comment list is at `.../relationships/open-comments/`.
 ## Each comment
 
 1. Check the bottom-left corner says **restore**. Click **Sync** (the circling arrows next to it) to get the latest.
-2. Open `docs/relationships/open-comments.md`. Pick the next comment with `- [ ] applied`.
+2. Open `docs/relationships/open-comments.md`. The **Status summary** at the top lists the comments you can work on.
+   Take the next **Ready** one whose box is still `- [ ] applied`. Do **Draft** ones only after the Ready ones are done.
 3. In the Claude panel, type:
-   > Fix comment AAAB6feBJ4M
-   
-   using the real ID. The rules Claude follows are in `CLAUDE.md`, so that is all you need to say.
-4. Open **Source Control** (Ctrl+Shift+G). Click each changed file to see old and new side by side.
-   - The change should be at the spot the comment names, and nowhere else.
+   > Fix comment AAAB4xFXrvE
+
+   using the real ID. Claude follows the procedure in `CLAUDE.md`.
+4. **Claude will show you a proposal and wait.** Read it:
+   - Does the "current text" match what the comment is about?
+   - Does the replacement do what Sadaf asked, and nothing more?
+   - If it's a relationship verb, check it exists in Innoslate's relationship dropdown.
+
+   If all is well, reply **go**. If not, tell Claude what to change, or reply **stop**.
+5. After Claude applies it, open **Source Control** (Ctrl+Shift+G) and click each changed file to see old and new side by side.
+   - The change should be at one spot only.
    - The comment's box in `open-comments.md` should now be `[x]`.
-   - If it's a relationship verb, check it against Innoslate's relationship dropdown.
-5. Happy with it? Type the comment ID as the message, e.g. `AAAB6feBJ4M: performs`, and click **Commit**.
-   If VS Code asks whether to stage all changes, say **Yes**.
+6. Happy with it? Type the comment ID as the message and click **Commit**. For a **Draft** comment, start the message
+   with `DRAFT:`, e.g. `DRAFT: AAAB6wHzTzc`, so Munzir knows to review it. If VS Code asks whether to stage all changes, say **Yes**.
    Not happy? Right-click each file and choose **Discard Changes**. Nothing is lost.
-6. Click **Sync** to push.
+7. Click **Sync** to push.
 
 One comment, one commit. Small commits are what make mistakes easy to undo.
 
+Skip every comment marked **Find in Google Doc** or **Munzir decides**. Claude will refuse them anyway.
+
 ## When to stop and ask Munzir
 
-- Claude says it can't find the spot, or the anchor doesn't match the comment.
+- Claude says it can't find the text, or finds it more than once.
 - A fix would need changes in more than one place.
 - Source Control shows a file you didn't expect to change.
 - Anything says `main`.

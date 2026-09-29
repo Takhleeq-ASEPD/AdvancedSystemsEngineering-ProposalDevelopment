@@ -140,18 +140,47 @@ then commits.
 
 This section overrides anything above that conflicts with it.
 
-- All work happens on the `restore` branch. Nothing goes to `main` until Munzir decides.
-- The list of work is `docs/relationships/open-comments.md`. It has 50 open comments, not 40.
-  Each entry gives the comment ID, the file, the section and the exact sentence it is attached to.
-- Work on **one comment per request**, identified by its ID (e.g. `AAAB6feBJ4M`).
-- **Fix in place.** Change only the spot the comment is attached to. Do not change the same
-  wording anywhere else, unless the comment itself says to. A consistency pass at the very end
-  will handle propagation.
-- If the anchored sentence clearly doesn't match what the comment is about, stop and say so.
-  February anchors may have drifted. Don't guess a location.
-- If the same comment also sits in the page as a `??? note "Sadaf · ..."` admonition, delete that
-  admonition as part of the fix.
-- In `open-comments.md`, change that comment's `- [ ] applied` to `- [x] applied`.
-- Relationship verbs: Innoslate implements LML 1.4. If a fix names a relationship verb, remind the
-  editor to confirm it against the relationship dropdown in Innoslate before committing.
-- Finish with the `Files modified` list, as in hard rule 3.
+The work list is `docs/relationships/open-comments.md`. Every open comment in it has a **Status** block.
+**Use the Status block. Never use the "Anchored on" line or the "File:" line to find the spot**: many of
+those are wrong.
+
+### Which comments you may work on
+
+- **Ready**: yes.
+- **Draft**: yes, but say clearly in your proposal that the wording is new and Munzir must review it.
+- **Find in Google Doc** or **Munzir decides**: no. Say which status it has and stop.
+
+### Procedure for "Fix comment <ID>"
+
+Work on one comment per request. Follow these steps in order and do not skip any.
+
+1. **Read** the comment's entry in `open-comments.md`: its Status, Where, the exact search text, the
+   Change, and any inline notes to delete.
+2. **Locate.** Search the file named in Where for the exact search text. It must appear exactly once
+   (once in each file, if two files are named). If it appears zero times or more than once, stop and
+   report what you found. Do not look for a "close enough" match.
+3. **Check for neighbours.** Look at the lines just above and below. If another open comment's inline note
+   sits there and is not listed for deletion, leave it alone and mention it.
+4. **Propose, then wait.** Show the editor:
+   - the current text, exactly as it is now;
+   - your proposed replacement;
+   - which inline notes you will delete;
+   - for Draft items, the words "New wording: Munzir to review".
+
+   Then stop and wait. **Do not edit any file until the editor replies with approval** (for example
+   "go", "yes" or "approved"). If they ask for changes, propose again and wait again.
+5. **Apply** exactly what was approved, nothing more:
+   - make the change in place, only at the located spot;
+   - delete the listed inline notes (the whole `??? note` block and its `<!-- comment:N -->` line);
+   - update `last_reviewed` in that page's front matter to today's date;
+   - in `open-comments.md`, change that comment's `- [ ] applied` to `- [x] applied`.
+6. **Report** with the `Files modified` list, as in hard rule 3.
+
+### Never
+
+- Change the same wording anywhere else, even if it is obviously wrong elsewhere. A consistency pass at
+  the end handles propagation.
+- Edit a Status block, or change any other comment's entry.
+- Run git commands (hard rule 1).
+- Relationship verbs: Innoslate implements LML 1.4. When a fix names a relationship verb, remind the
+  editor to confirm it exists in Innoslate's relationship dropdown before committing.
