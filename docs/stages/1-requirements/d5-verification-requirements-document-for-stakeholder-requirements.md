@@ -3,7 +3,7 @@ title: "Verification Requirements Document (for Stakeholder Requirements)"
 stage: "Requirements"
 deliverable_id: stage1-d5
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-09-30
 ---
 
 # Verification Requirements Document (for Stakeholder Requirements)
