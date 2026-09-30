@@ -3,7 +3,7 @@ title: "Initial System Architecture — Stage Overview"
 stage: "Stage Synthesis"
 deliverable_id: stage3-overview
 status: draft
-last_reviewed: 2026-08-05
+last_reviewed: 2026-09-29
 ---
 
 # Initial System Architecture

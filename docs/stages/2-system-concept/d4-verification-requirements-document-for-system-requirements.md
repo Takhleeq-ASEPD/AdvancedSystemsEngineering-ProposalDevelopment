@@ -3,7 +3,7 @@ title: "Verification Requirements Document (for System Requirements)"
 stage: "System Concept"
 deliverable_id: stage2-d4
 status: draft
-last_reviewed: 2026-08-05
+last_reviewed: 2026-09-29
 ---
 
 # Verification Requirements Document (for System Requirements)
@@ -130,15 +130,13 @@ These measurable quantities are often called:
 
 ## **Trace Verification Requirements to Test Cases (Optional)**
 
-??? note "Sadaf · 2026-05-15"
-    System Req (verified by) Verification Req
-<!-- comment:12 -->
+Each verification requirement must first be traced back to the system requirement it verifies.
 
+Create relationship:
 
-??? note "Sadaf · 2026-05-07"
-    what about tracing to system requirements?
-<!-- comment:11 -->
+System Requirement → **verified by → Verification Requirement**
 
+This closes the upstream half of the traceability chain — System Requirement → Verification Requirement → Test Case. Tracing on to Test Cases, described below, is optional; tracing back to the system requirement is not.
 
 A **Test Case** is a subclass of the **Action** class.
 

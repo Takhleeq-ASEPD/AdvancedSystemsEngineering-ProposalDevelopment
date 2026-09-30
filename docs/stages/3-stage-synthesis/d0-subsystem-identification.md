@@ -3,7 +3,7 @@ title: "Subsystem Identification"
 stage: "Stage Synthesis"
 deliverable_id: stage3-d0
 status: draft
-last_reviewed: 2026-08-05
+last_reviewed: 2026-09-29
 ---
 
 # Subsystem Identification

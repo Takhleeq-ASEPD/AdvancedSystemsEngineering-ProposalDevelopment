@@ -137,7 +137,7 @@ Fixed in the Google Doc by Munzir on 25 August; ported to the repo on 29 Septemb
 
 **Also delete the inline note(s) starting:** `what about tracing to system requirements?`; `System Req (verified by) Verification Req`
 
-- [ ] applied
+- [x] applied
 
 ### `AAAB4xlgcPk`
 
