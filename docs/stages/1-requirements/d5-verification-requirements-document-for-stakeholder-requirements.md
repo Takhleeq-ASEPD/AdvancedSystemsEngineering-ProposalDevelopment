@@ -116,11 +116,8 @@ Not all stakeholder requirements need a verification requirement:
 
 6.  **Trace to test cases (optional)**
 
-??? note "Sadaf · 2026-05-07"
-    Add instructions for creating relationship: Stakeholder req (verified by) Verification Req
-<!-- comment:4 -->
-
-
+> First, close the upstream link: create a relationship “verified by” between the stakeholder requirement and the verification requirement that verifies it — Stakeholder Requirement “verified by” Verification Requirement. This completes the chain Stakeholder Requirement → Verification Requirement → Test Case. Only the trace to test cases, described below, is optional.
+>
 > A “Test case” class, which is a subclass of the Action class:
 
 - supports Innoslate’s Test Center view, where different test cases can be analysed.
