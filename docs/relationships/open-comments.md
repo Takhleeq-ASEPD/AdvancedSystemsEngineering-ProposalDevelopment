@@ -627,7 +627,7 @@ New wording: Munzir reviews before merge.
 
 **Also delete the inline note(s) starting:** `also, add the label "Selected component"`
 
-- [ ] applied
+- [x] applied
 
 ### `AAAB6wHzTzk`
 

@@ -3,7 +3,7 @@ title: "Trade Studies and Associated Risks (Component Selection)"
 stage: "Stage Synthesis"
 deliverable_id: stage3-d7
 status: draft
-last_reviewed: 2026-09-29
+last_reviewed: 2026-09-30
 ---
 
 # Trade Studies and Associated Risks (Component Selection)
@@ -100,12 +100,7 @@ The book emphasizes keeping "several optional solutions available" before commit
 
 2.  Identify a fallback component — a second candidate that could substitute if the primary selection becomes unavailable. Record both in the table.
 
-3.  In Innoslate, create an Asset entity for each selected component. Record the following attributes: component name, manufacturer, model number, and a link to the datasheet as a reference artifact.
-
-??? note "Sadaf · 2026-05-07"
-    also, add the label "Selected component" for easy filtering when we create traceability matrix between functional requirements and selected components
-<!-- comment:22 -->
-
+3.  In Innoslate, create an Asset entity for each selected component. Record the following attributes: component name, manufacturer, model number, and a link to the datasheet as a reference artifact. Apply the Metadata label **Selected component** to each of these Asset entities, so they can be filtered easily when you build the traceability matrix between functional requirements and selected components.
 
 4.  Allocate the component Asset to the relevant subsystem Asset using the "decomposed by" relationship, consistent with the asset hierarchy established in Deliverable 3.
 
