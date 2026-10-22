@@ -1287,7 +1287,7 @@ Note that the actions that were created in Figure 4.3 include a number of scenar
 
 **Change:** Add a reference at the end of this note: see page 87 of the Real MBSE book.
 
-- [ ] applied
+- [x] applied
 
 ### `AAAB0EbNaqM`
 

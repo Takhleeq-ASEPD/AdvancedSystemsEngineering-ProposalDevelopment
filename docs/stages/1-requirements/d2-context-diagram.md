@@ -3,7 +3,7 @@ title: "Context Diagram"
 stage: "Requirements"
 deliverable_id: stage1-d2
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-10-22
 ---
 
 # Context Diagram
@@ -420,5 +420,7 @@ Note that the actions that were created in Figure 4.3 include a number of scenar
 - M.8 “Receive Habitat” was only part of Scenario 4, so it was made the child of that scenario.
 
 - M.13 “Prepare Personnel for Return to Earth” was renamed to S.6 “Rotate Personnel Out.”
+
+(**Real MBSE eBook pg 87**)
 
 So, with a little bit of work, we were able to reuse all the work that was done from developing the context diagram.
