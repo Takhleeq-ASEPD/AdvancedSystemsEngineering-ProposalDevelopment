@@ -62,6 +62,7 @@ The table below lists every entity pair for which the ASEPD deliverables documen
 | Component TradeStudies (Del. 7) | Component Asset → Subsystem Asset | **"decomposed by"** | Standard asset hierarchy decomposition (§3.4.0.2.2). Subsystem Asset decomposed by Component Asset. Correct. |
 | Component TradeStudies (Del. 7) | Component Asset → Action | **"performs"** | LML §3.4.1.2.3. Correct and consistent with granular action diagram allocation. Must be explicitly set — Innoslate does not propagate this from parent assets. |
 | Component TradeStudies (Del. 7) | Risk → Component Asset | **"related to"** | See note above for Trade Studies (Del. 4 & 7). Valid generic link. Acceptable. |
+| Component TradeStudies (Del. 7) | Issue → Design Analysis Report (Artifact) | **"references"** | LML §3.4.0.2.8 defines references / referenced by between an entity and a supporting Artifact: Issue references the Design Analysis Report. More semantically precise than related to for an entity-to-artifact link, as noted for Risk → Trade Study (Artifact) above. |
 | Verif. Req. forSubsystem Req. | Verif. Requirement → Subsystem Requirement | **"verifies"** | Consistent with Gate 2 and Gate 3. LML §3.4.11.4.2. Correct. |
 
 ## **3. Traceability Matrix Guidelines**

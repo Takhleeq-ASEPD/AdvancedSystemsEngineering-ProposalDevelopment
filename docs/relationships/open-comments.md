@@ -864,7 +864,7 @@ New wording: Munzir reviews before merge.
 
 **Change:** Add a new row directly after this one, in both files: Component TradeStudies (Del. 7) | Issue → Design Analysis Report (Artifact) | **"references"**. In `with-verdicts.md`, fill the verdict and explanation columns like the rows around it.
 
-- [ ] applied
+- [x] applied
 
 ### `AAAB6wHzTzQ`
 
