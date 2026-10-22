@@ -659,7 +659,7 @@ New wording: Munzir reviews before merge.
 
 **Also delete the inline note(s) starting:** `also, add label "Analysis" to this artifact`
 
-- [ ] applied
+- [x] applied
 
 ## 5 · SRD auto-link gap
 

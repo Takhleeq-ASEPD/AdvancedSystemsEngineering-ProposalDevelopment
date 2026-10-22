@@ -3,7 +3,7 @@ title: "Design Analysis Report and Initial Bill-of-Materials (BOM)"
 stage: "Stage Synthesis"
 deliverable_id: stage3-d8
 status: draft
-last_reviewed: 2026-05-23
+last_reviewed: 2026-10-22
 ---
 
 # Design Analysis Report and Initial Bill-of-Materials (BOM)
@@ -217,12 +217,7 @@ Once all analyses are complete:
 
 > *Note: Feel free to organize your report and its analyses in whatever structure you find most appropriate.*
 
-3.  **Create a new Artifact entity** (e.g., DAR.1) for the Design Analysis Report. Upload the completed report and link it to any trade studies performed while making design choices in Stage 2 using "related to."
-
-??? note "Sadaf · 2026-05-21"
-    also, add label "Analysis" to this artifact to be able to filter out just the analyses artifacts
-<!-- comment:28 -->
-
+3.  **Create a new Artifact entity** (e.g., DAR.1) for the Design Analysis Report. Upload the completed report and link it to any trade studies performed while making design choices in Stage 2 using "related to." Apply the Metadata label **Analysis** to this Artifact, so analysis artifacts can be filtered as a group.
 
 4.  For any Issue entity created during this deliverable, link it to the affected requirement using "caused by" and to the analysis artifact using “references."
 
